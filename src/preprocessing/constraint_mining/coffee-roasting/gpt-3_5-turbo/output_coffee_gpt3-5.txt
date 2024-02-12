@@ -1,0 +1,408 @@
+# Outputs given by the model gpt-3.5-turbo through the UI of ChatGPT from openAI <https://chat.openai.com/>.
+# Prompt 1 and 2 are seperated, each prompt entails 3 generative attemps to showcase the variation in results.
+# Tried to set temperature to 0.1 and seed to 23567 (although according to openAI's documentation it is currently not reliable)
+
+# Reference links for each prompt generation:
+## Prompt 1:
+### Attempt 1: https://chat.openai.com/share/fa523af6-8449-4b85-98be-34508b14bbb4
+### Attempt 2: https://chat.openai.com/share/766ebd5b-4d23-444c-9646-08ace54dabbc
+### Attempt 3: https://chat.openai.com/share/100501ef-d13f-4d50-97e9-b55ee8963762
+
+## Prompt 2:
+### Attempt 1: https://chat.openai.com/share/1e4f3d6e-c964-4728-9a1a-9e0741d8bdf3
+### Attempt 2: https://chat.openai.com/share/48e05d04-7220-4e02-b026-0895bf3d1519
+### Attempt 3: https://chat.openai.com/share/f8b64e8c-be91-46d4-9a44-ce530ba52b40
+
+
+--- START OF: SMART METER REQUEST PROMPT 1-----
+
+----- START OF: PROMPT 1 GENERATION NR. 1 -----
+
+# Constraints for Coffee Roasting Process
+In the context of the coffee roasting process, we can identify several constraints related to specific activities and their interdependencies. Here are the constraints extracted from the 'descriptive_file' for the given 'activities_list':
+
+## Constraint 1: Roasting Chamber Selection and Temperature Control
+c1 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {eventually follows}, {Coffee tray height of at least 180mm => Temperature of Roasting Chamber 1 [140°, 420°] AND Temperature of Roasting Chamber 2 [240°, 520°]})
+
+## Constraint 2: Roasting Chamber Selection and Temperature Control
+c2 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {eventually follows}, {Coffee tray height of at least 180mm => Temperature of Roasting Chamber 2 [240°, 520°] AND Temperature of Roasting Chamber 3 <= 571°})
+
+## Constraint 3: Roasting Chamber Selection and Temperature Control
+c3 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {eventually follows}, {Coffee tray height of at least 175mm => Temperature of Roasting Chamber 3 [320°, 680°] AND Temperature of Roasting Chamber 4 [320°, 680°]})
+
+## Constraint 4: Roasting Chamber Selection and Temperature Control
+c4 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {eventually follows}, {Coffee tray height of at most 170mm => Temperature of Roasting Chamber 1 [170°, 450°] AND Temperature of Roasting Chamber 2 [270°, 550°]})
+
+## Constraint 5: Roasting Chamber Selection and Temperature Control
+c5 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {eventually follows}, {Coffee tray height of at most 170mm => Temperature of Roasting Chamber 2 [270°, 550°] AND Temperature of Roasting Chamber 3 [370°, 650°]})
+
+## Constraint 6: Roasting Chamber Selection and Temperature Control
+c6 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {eventually follows}, {Coffee tray height of at most 170mm => Temperature of Roasting Chamber 3 [370°, 650°] AND Temperature of Roasting Chamber 4 <= 550°})
+
+## Constraint 7: Roasting Chamber Selection and Temperature Control
+c7 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {eventually follows}, {Coffee tray height of at least 175mm => Temperature of Roasting Chamber 1 [220°, 580°] AND Temperature of Roasting Chamber 2 [320°, 680°]})
+
+## Constraint 8: Roasting Chamber Selection and Temperature Control
+c8 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {eventually follows}, {Coffee tray height of at least 175mm => Temperature of Roasting Chamber 2 [320°, 680°] AND Temperature of Roasting Chamber 3 [420°, 760°]})
+
+## Constraint 9: Roasting Chamber Selection and Temperature Control
+c9 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {eventually follows}, {Coffee tray height of at least 175mm => Temperature of Roasting Chamber 3 [420°, 760°] AND Temperature of Roasting Chamber 4 [320°, 680°]})
+
+## Constraint 10: Dark Roast Temperature Control
+c10 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {eventually follows}, {Coffee tray height of at least 175mm => Temperature of Roasting Chamber 4 [320°, 680°] AND Temperature of Roasting Chamber 5 [<= 580°]})
+
+## Constraint 11: Dark Roast Temperature Control
+c11 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {eventually follows}, {Coffee tray height of at most 175mm => Temperature of Roasting Chamber 1 [200°, 560°] AND Temperature of Roasting Chamber 2 [300°, 660°]})
+
+## Constraint 12: Dark Roast Temperature Control
+c12 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {eventually follows}, {Coffee tray height of at most 175mm => Temperature of Roasting Chamber 2 [300°, 660°] AND Temperature of Roasting Chamber 3 [400°, 760°]})
+
+## Constraint 13: Dark Roast Temperature Control
+c13 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {eventually follows}, {Coffee tray height of at most 175mm => Temperature of Roasting Chamber 3 [400°, 760°] AND Temperature of Roasting Chamber 4 [320°, 680°]})
+
+## Constraint 14: Dark Roast Temperature Control
+c14 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {eventually follows}, {Coffee tray height of at most 175mm => Temperature of Roasting Chamber 4 [320°, 680°] AND Temperature of Roasting Chamber 5 [<= 580°]})
+
+These constraints describe the relationships between activities and the temperature control conditions required for successful coffee roasting, taking into account the coffee tray height. Each constraint is identified by a unique identifier (c1, c2, etc.) and is associated with a specific pair of activities and their relationships, either "eventually follows" or "directly follows," along with the corresponding temperature control conditions.
+
+These constraints provide guidance for ensuring the proper execution of the coffee roasting process based on the height of coffee trays and temperature ranges in different roasting chambers.
+
+----- END OF: PROMPT 1 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 2 -----
+
+To extract business process constraints from the 'descriptive_file' based on the provided 'activities_list,' we will focus on relevant information and metrics from the file that pertain to the activities in the list. I will provide descriptions for each constraint followed by the constraint itself.
+
+# Constraints for Coffee Roasting Process
+## Constraints Related to 'Height Measure' and 'Moisture Measure'
+### Coffee tray height lower than 180mm:
+c1 = ({Height Measure}, {Moisture Measure}, {directly follows}, {height < 180mm})
+
+### Coffee tray height of at least 180mm:
+c2 = ({Height Measure}, {Moisture Measure}, {directly follows}, {height >= 180mm})
+
+## Constraints Related to 'Roast Degree Selection', 'Roasting Chamber 1', 'Roasting Chamber 2', 'Roasting Chamber 3', 'Roasting Chamber 4', and 'Roasting Chamber 5'
+### Light Roast:
+c3 = ({Roast Degree Selection}, {Roasting Chamber 1}, {directly follows}, {120 <= temperature <= 400})
+c4 = ({Roast Degree Selection}, {Roasting Chamber 2}, {directly follows}, {220 <= temperature <= 500})
+c5 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {temperature <= 550})
+
+### Medium Roast:
+c6 = ({Roast Degree Selection}, {Roasting Chamber 1}, {directly follows}, {170 <= temperature <= 450})
+c7 = ({Roast Degree Selection}, {Roasting Chamber 2}, {directly follows}, {270 <= temperature <= 550})
+c8 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {370 <= temperature <= 650})
+c9 = ({Roast Degree Selection}, {Roasting Chamber 4}, {directly follows}, {temperature <= 550})
+
+### Dark Roast:
+c10 = ({Roast Degree Selection}, {Roasting Chamber 1}, {directly follows}, {temperature <= 580})
+c11 = ({Roast Degree Selection}, {Roasting Chamber 2}, {directly follows}, {temperature <= 680})
+c12 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {temperature <= 780})
+c13 = ({Roast Degree Selection}, {Roasting Chamber 4}, {directly follows}, {temperature <= 680})
+
+## Constraints for 'Final Measure'
+### For piles of other heights:
+c14 = ({Final Measure}, {Roasting Chamber 1}, {directly follows}, {200 <= temperature <= 560})
+c15 = ({Final Measure}, {Roasting Chamber 2}, {directly follows}, {300 <= temperature <= 660})
+c16 = ({Final Measure}, {Roasting Chamber 3}, {directly follows}, {temperature >= 421})
+c17 = ({Final Measure}, {Roasting Chamber 4}, {directly follows}, {320 <= temperature <= 680})
+
+### For piles of 175mm height and beyond:
+c18 = ({Final Measure}, {Roasting Chamber 5}, {directly follows}, {temperature <= 580})
+
+### For piles smaller than 175mm:
+c19 = ({Final Measure}, {Roasting Chamber 5}, {directly follows}, {temperature <= 560})
+
+## Constraints Related to 'Power Switch', 'Heater Control', 'Ammeter', 'Blower Control', 'Thermometer', and 'Electrical Circuit Breaker'
+### Power Switch:
+c20 = ({Power Switch}, {Heater Control}, {directly follows}, {switch fully on})
+
+### Heater Control:
+c21 = ({Heater Control}, {Ammeter}, {directly follows}, {readjust current after a few minutes})
+
+### Ammeter:
+c22 = ({Ammeter}, {Blower Control}, {directly follows}, {adjust blower level})
+
+### Blower Control:
+c23 = ({Blower Control}, {Thermometer}, {directly follows}, {adjust blower level})
+
+### Thermometer:
+c24 = ({Thermometer}, {Electrical Circuit Breaker}, {directly follows}, {reset breaker if roaster stops})
+
+# [description for a group of constraints]
+## [description for a single constraint]
+
+----- END OF: PROMPT 1 GENERATION NR. 2 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 3 -----
+
+# Constraints for Coffee Roasting Process
+In order to understand the constraints related to the coffee roasting process, we need to focus on the key activities and information provided in the descriptive file. The activities we are interested in are: 'Height Measure', 'Moisture Measure', 'Roast Degree Selection', 'Roasting Chamber 1', 'Roasting Chamber 2', 'Roasting Chamber 3', 'Roasting Chamber 4', 'Roasting Chamber 5', and 'Final Measure'. Let's extract the constraints for each activity:
+
+## Height Measure and Moisture Measure
+These activities are related to the measurement of coffee pile height and moisture levels. There are no direct constraints mentioned for these activities in the descriptive file. They provide essential data for the subsequent activities.
+
+## Roast Degree Selection
+This activity is related to selecting the roast degree for coffee beans. The constraints for this activity are as follows:
+
+c1 = ({Roast Degree Selection}, {Roasting Chamber 1, Roasting Chamber 2, Roasting Chamber 3}, {directly follows}, {Coffee tray height < 180mm => Temperature of Roasting Chamber 1 [120°, 400°], Temperature of Roasting Chamber 2 [220°, 500°], Temperature of Roasting Chamber 3 <= 550°})
+
+c2 = ({Roast Degree Selection}, {Roasting Chamber 1, Roasting Chamber 2, Roasting Chamber 3}, {directly follows}, {Coffee tray height >= 180mm => Temperature of Roasting Chamber 1 [140°, 420°], Temperature of Roasting Chamber 2 [240°, 520°], Temperature of Roasting Chamber 3 <= 571°})
+
+## Roasting Chamber 1, Roasting Chamber 2, Roasting Chamber 3
+These activities are related to the first three roasting chambers. The constraints for these activities are as follows:
+
+c3 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {eventually follows}, {Temperature of Roasting Chamber 1 [200°, 560°], Temperature of Roasting Chamber 2 [300°, 660°]})
+
+c4 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {eventually follows}, {Temperature of Roasting Chamber 2 <= 760°, Temperature of Roasting Chamber 3 >= 400°})
+
+## Roasting Chamber 4 and Roasting Chamber 5
+### These activities are related to the last two roasting chambers. The constraints for these activities are as follows:
+
+c5 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {eventually follows}, {Temperature of Roasting Chamber 4 <= 680°, Temperature of Roasting Chamber 5 <= 580°})
+
+c6 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {eventually follows}, {Temperature of Roasting Chamber 3 >= 421°, Temperature of Roasting Chamber 4 >= 320°})
+
+## Final Measure
+This activity is related to the final measurement of coffee beans. There are no specific constraints mentioned for this activity in the descriptive file.
+
+# Description for Coffee Roasting Process Constraints
+## Roast Degree Selection
+### c1
+This constraint specifies the temperature conditions for Roasting Chamber 1, Roasting Chamber 2, and Roasting Chamber 3 based on the selected coffee tray height. If the coffee tray height is less than 180mm, specific temperature ranges must be maintained in each chamber. If the height is equal to or greater than 180mm, different temperature ranges apply.
+
+### c2
+Similar to c1, this constraint defines temperature conditions for Roasting Chamber 1, Roasting Chamber 2, and Roasting Chamber 3 based on coffee tray height. It provides temperature ranges for each chamber to ensure the desired roast degree.
+
+Roasting Chamber 1, Roasting Chamber 2, Roasting Chamber 3
+### c3
+This constraint describes the relationship between the temperature conditions in Roasting Chamber 1 and Roasting Chamber 2. It specifies that Roasting Chamber 2 eventually follows Roasting Chamber 1, ensuring a smooth transition in temperature.
+
+### c4
+This constraint extends the relationship to include Roasting Chamber 3, which eventually follows Roasting Chamber 2. It defines temperature conditions to maintain in each chamber for a successful roasting process.
+
+## Roasting Chamber 4 and Roasting Chamber 5
+### c5
+These constraints outline the relationship between Roasting Chamber 4 and Roasting Chamber 5. They specify temperature conditions for both chambers, ensuring that temperature limits are not exceeded for different coffee tray heights.
+
+### c6
+These constraints provide additional temperature conditions for Roasting Chamber 4 and Roasting Chamber 5. They ensure that temperature requirements are met to produce high-quality roasted coffee beans.
+
+Please note that the descriptive file provides detailed information about temperature rules and constraints related to the coffee roasting process, ensuring the desired roast degrees are achieved while maintaining quality standards.
+
+----- END OF: PROMPT 1 GENERATION NR. 3 -----
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+
+
+
+-------- NOW SWITCHING FROM PROMPT 1 TO PROMPT 2 --------
+
+
+
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+----- START OF: PROMPT 2 GENERATION NR. 1 -----
+
+# Constraints Related to Coffee Roasting Process
+## Temperature Control during Coffee Roasting
+c1 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {170 <= temperature <= 450})
+c2 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {270 <= temperature <= 550})
+c3 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {370 <= temperature <= 650})
+c4 = ({XOR1}, {Roasting Chamber 4}, {directly follows}, {temperature <= 550})
+
+c5 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {0 <= temperature < 180 OR 460 <= temperature <= 1000})
+c6 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {0 <= temperature < 290 OR 570 <= temperature <= 1000})
+c7 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {0 <= temperature < 390 OR 670 <= temperature <= 1000})
+c8 = ({Roasting Chamber 4}, {XOR1}, {eventually follows}, {temperature <= 560})
+
+c9 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {0 <= temperature < 180 OR 460 <= temperature <= 1000})
+c10 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {0 <= temperature < 290 OR 570 <= temperature <= 1000})
+c11 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {0 <= temperature < 390 OR 670 <= temperature <= 1000})
+c12 = ({Roasting Chamber 4}, {XOR1}, {eventually follows}, {temperature <= 560})
+
+c13 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {200 <= temperature <= 560})
+c14 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {300 <= temperature <= 660})
+c15 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {400 <= temperature <= 760})
+c16 = ({Roasting Chamber 4}, {XOR1}, {eventually follows}, {temperature <= 680})
+
+Coffee Pile Height and Roasting Chamber Temperature Control
+c17 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {coffee pile height < 180 AND 120 <= temperature <= 400})
+c18 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {coffee pile height < 180 AND 220 <= temperature <= 500})
+c19 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {coffee pile height < 180 AND highest temperature <= 550})
+
+c20 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {coffee pile height >= 180 AND 140 <= temperature <= 420})
+c21 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {coffee pile height >= 180 AND 240 <= temperature <= 520})
+c22 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {coffee pile height >= 180 AND highest temperature <= 571})
+
+Dark Roast Specific Constraints
+c23 = ({Roasting Chamber 4}, {XOR2}, {eventually follows}, {temperature <= 560})
+
+c24 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {coffee pile height >= 175 AND 200 <= temperature <= 580})
+c25 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {coffee pile height >= 175 AND 300 <= temperature <= 680})
+c26 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {coffee pile height >= 175 AND 400 <= temperature <= 780})
+
+c27 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {0 <= temperature <= 560})
+c28 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {0 <= temperature <= 660})
+c29 = ({Roasting Chamber 3}, {XOR1}, {directly follows}, {0 <= temperature <= 760})
+
+## General Coffee Roasting Constraints
+c30 = ({Roasting Chamber 4}, {Quality Assessment}, {eventually follows}, {second crack temperature <= 680 AND temperature >= 320})
+
+# Additional Information
+## Power Switch
+c31 = ({'Power Switch'}, {'Roasting Chamber 1'}, {directly follows}, {'fully on'})
+
+## Heater Control
+c32 = ({'Heater Control'}, {'Roasting Chamber 1'}, {directly follows}, {'adjust heater current'})
+
+## Ammeter
+c33 = ({'Ammeter'}, {'Heater Control'}, {directly follows}, {'adjust heater current'})
+
+## Blower Control
+c34 = ({'Blower Control'}, {'Roasting Chamber 4'}, {directly follows}, {'adjust blower level'})
+
+## Thermometer
+c35 = ({'Thermometer'}, {'Quality Assessment'}, {directly follows}, {'measure bean temperature'})
+
+## Electrical Circuit Breaker
+c36 = ({'Electrical Circuit Breaker'}, {'Power Switch'}, {directly follows}, {'reset breaker if needed'})
+
+# Coffee Roasting Process Constraints Description
+## Temperature Control during Coffee Roasting
+These constraints define the temperature control requirements for each roasting chamber in the coffee roasting process. The specified temperature ranges must be maintained during the transition from one chamber to another. Failure to meet these temperature conditions may result in the rejection of the final product.
+
+## Coffee Pile Height and Roasting Chamber Temperature Control
+These constraints take into account the coffee pile height and its impact on temperature control in the roasting chambers. Different temperature ranges apply based on the coffee pile height. It ensures that the temperature conditions are appropriate for the given pile height.
+
+## Dark Roast Specific Constraints
+These constraints are specific to the dark roast process, introducing additional temperature requirements for roasting oven 4. The temperature ranges must be adhered to for a successful dark roast.
+
+## General Coffee Roasting Constraints
+These constraints encompass various aspects of the coffee roasting process, including quality assessment criteria and general temperature control. They ensure that the process follows specific rules and standards.
+
+# Additional Information
+## Power Switch
+The power switch controls the main power system of the roaster. It must be turned fully on before charging the roaster with green beans. It can also be used as a timer, with different time settings corresponding to different positions.
+
+## Heater Control
+The heater control knob adjusts the heater current, affecting the roasting chamber's temperature. It should be adjusted to maintain the desired heat level, as the resistance of the heaters may change during operation.
+
+## Ammeter
+The ammeter measures the electrical current flowing through the heaters. It helps monitor and adjust the heater current for precise heat control during the roasting process.
+
+## Blower Control
+The blower control knob adjusts the blower level, which has various functions, including air circulation, chaff removal, and cooling of roasted beans. The blower level should be adjusted as needed.
+
+## Thermometer
+The thermometer measures bean temperature, providing crucial information for the roasting process. It ensures that the beans are roasted at the appropriate temperature levels.
+
+## Electrical Circuit Breaker
+The electrical circuit breaker is a safety feature that shuts down the roaster in case of excessive current draw. If the roaster stops operating, it should be reset by depressing the button. If it repeatedly opens, it indicates the need for repair.
+
+----- END OF: PROMPT 2 GENERATION NR. 1 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 2 -----
+
+# Constraints related to the Coffee Roasting Process
+## Constraints on Roasting Degrees and Coffee Tray Height
+c1 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height of coffee trays >= 180 AND [140°, 420°]})
+c2 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height of coffee trays >= 180 AND 240° <= temperature <= 520°})
+c3 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height of coffee trays >= 180 AND temperature < 571°})
+
+c4 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height of coffee trays < 180 AND [220°, 500°]})
+c5 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height of coffee trays < 180 AND [240°, 520°]})
+c6 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height of coffee trays < 180 AND [220°, 560°]})
+
+## Constraints on Oven Temperatures for Dark Roast
+c7 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height of coffee trays >= 175 AND [220°, 580°]})
+c8 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height of coffee trays >= 175 AND [320°, 680°]})
+c9 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height of coffee trays >= 175 AND [320°, 680°]})
+c10 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height of coffee trays < 175 AND [200°, 560°]})
+c11 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height of coffee trays < 175 AND [300°, 660°]})
+c12 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height of coffee trays < 175 AND [320°, 680°]})
+c13 = ({Roasting Chamber 4}, {Quality Assessment}, {eventually follows}, {temperature >= 680°})
+
+## Constraints on Power Switch
+c14 = ({START}, {'Roasting Chamber 1'}, {directly follows}, {power switch = on})
+
+## Constraints on Heater Control
+c15 = ({Roasting Chamber 1}, {'Roasting Chamber 2'}, {directly follows}, {heater control adjusted precisely})
+
+## Constraints on Ammeter
+c16 = ({Roasting Chamber 1}, {'Roasting Chamber 2'}, {directly follows}, {ammeter reading monitored})
+
+## Constraints on Blower Control
+c17 = ({Roasting Chamber 1}, {'Roasting Chamber 2'}, {directly follows}, {blower control adjusted correctly})
+
+## Constraints on Thermometer
+c18 = ({Roasting Chamber 1}, {'Roasting Chamber 2'}, {directly follows}, {thermometer readings recorded accurately})
+
+## Constraints on Electrical Circuit Breaker
+c19 = ({Roasting Chamber 1}, {'Roasting Chamber 2'}, {directly follows}, {circuit breaker not tripped})
+
+# Description for Constraints
+## Roasting Degree and Coffee Tray Height Constraints
+These constraints ensure that the roasting process follows specific temperature ranges depending on the height of the coffee trays, maintaining the desired roasting degrees.
+
+## Oven Temperatures for Dark Roast
+These constraints define the temperature limits for each roasting chamber when producing dark roast coffee, considering coffee tray height.
+
+## Power Switch Constraint
+This constraint specifies that the power switch should be turned on at the beginning of the roasting process.
+
+## Heater Control Constraint
+This constraint emphasizes the need to adjust the heater control precisely to maintain the desired heat level.
+
+## Ammeter Constraint
+This constraint highlights the importance of monitoring the ammeter reading during the roasting process.
+
+## Blower Control Constraint
+This constraint ensures that the blower control is adjusted correctly to regulate airflow during roasting.
+
+## Thermometer Constraint
+This constraint emphasizes the accurate recording of thermometer readings during the roasting process.
+
+## Electrical Circuit Breaker Constraint
+This constraint mentions the presence of a circuit breaker and the need to reset it if necessary for the roaster to operate.
+
+These constraints are essential for achieving consistent and high-quality coffee roasting as described in the Coffee Roasting Handbook.
+
+----- END OF: PROMPT 2 GENERATION NR. 2 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 3 -----
+
+# Constraints for Coffee Roasting Process
+## Roasting Degrees:
+### Light Roast
+c1 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'Coffee tray height < 180mm AND 120° <= Roasting oven 1 <= 400° AND 220° <= Roasting oven 2 <= 500° AND Highest temperature of Roasting oven 3 <= 550°'})
+
+c2 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'Coffee tray height >= 180mm AND 140° <= Roasting oven 1 <= 420° AND 240° <= Roasting oven 2 <= 520° AND Highest temperature of Roasting oven 3 <= 571°'})
+
+### Medium Roast
+c3 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'Coffee tray height <= 170mm AND 170° <= Roasting oven 1 <= 450° AND 270° <= Roasting oven 2 <= 550° AND Highest temperature of Roasting oven 3 <= 650° AND Roasting oven 4 <= 550°'})
+
+c4 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'Coffee tray height >= 170mm AND (Roasting oven 1 not in (0°, 180°) AND Roasting oven 1 not in (460°, 1000°)) AND (Roasting oven 2 not in (0°, 290°) AND Roasting oven 2 not in (570°, 1000°)) AND (Roasting oven 3 not in (0°, 390°) AND Roasting oven 3 not in (670°, 1000°)) AND Roasting oven 4 <= 560°'})
+
+### Dark Roast
+c5 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'Coffee pile >= 175mm AND Roasting oven 1 not in (0°, 580°) AND Roasting oven 2 not in (0°, 680°) AND Roasting oven 3 not in (0°, 780°) AND Roasting oven 4 not in (0°, 680°)'})
+
+c6 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'Coffee pile < 175mm AND 200° <= Roasting oven 1 <= 560° AND 300° <= Roasting oven 2 <= 660° AND Roasting oven 3 not in (0°, 760°) AND Roasting oven 4 not in (0°, 320°)'})
+
+## Height of Coffee Trays
+### Constraints not related to the activities list as they do not specify tray heights
+## Oven Temperatures
+### Constraints not related to the activities list as they do not specify oven temperatures
+# Additional Information
+## Increasing Capacity by painting the drum
+### Constraint not related to the activities list as it provides general advice
+## Coffee Bean Cooling
+### Constraint not related to the activities list as it provides general advice
+The constraints mentioned above specify the conditions and requirements for different roasting degrees (Light, Medium, and Dark) based on coffee tray height and oven temperatures. These constraints ensure the quality and consistency of the coffee roasting process.
+
+----- END OF: PROMPT 2 GENERATION NR. 3 -----
+
+--- END OF: SMART METER REQUEST PROMPT 2-----

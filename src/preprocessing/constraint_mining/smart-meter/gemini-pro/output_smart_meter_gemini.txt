@@ -1,0 +1,174 @@
+# Outputs given by the model gemini-pro-vision using the API commands from file 'smart_meter_geminipro.py'.
+# Prompt 1 and 2 are seperated, each prompt entails 3 generative attemps to showcase the variation in results.
+# Temperature is set to 0.1, token limit = 2048 (maximum as of 17.01.2024)
+
+
+--- START OF: SMART METER REQUEST PROMPT 1-----
+
+----- START OF: PROMPT 1 GENERATION NR. 1 -----
+
+## Customer can activate or deactivate consumption time series display on the meter
+c1 = ({"Request Consumption Display"}, {"Activate Consumption Display"}, {"eventually follows"}, {"customer's request"})
+
+## Consumption time series display is available on meter display when activated
+c2 = ({"Activate Consumption Display"}, {"View Consumption Display"}, {"directly follows"}, {"consumption time series display = active"})
+
+## Consumption time series display is not visible on meter display when deactivated
+c3 = ({"Deactivate Consumption Display"}, {"View Consumption Display"}, {"directly follows"}, {"consumption time series display = inactive"})
+
+## Consumption time series display is synchronized 1-2 times a day
+c4 = ({"Request Consumption Display"}, {"Request Meter Synchronization"}, {"eventually follows"}, {"synchronization frequency = 1-2 times a day"})
+
+## Consumption time series display is deactivated for 60 days during customer change
+c5 = ({"Get Number of Customer Change Requests 24h"}, {"Deactivate Consumption Display"}, {"eventually follows"}, {"customer change in progress = true"})
+
+----- END OF: PROMPT 1 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 2 -----
+
+## Customer can activate or deactivate consumption time series display on meter
+c1 = ({"Request Consumption Display", "Deactivate Consumption Display"}, {"Activate Consumption Display"}, {"eventually follows"}, {"customer's decision"})
+
+## Customer can inform NB about activation or deactivation of consumption time series display
+c2 = ({"Request Consumption Display", "Deactivate Consumption Display"}, {"Report Display Status"}, {"eventually follows"}, {"customer's decision"})
+
+## Consumption time series display is available on meter when activated
+c3 = ({"Activate Consumption Display"}, {"View Consumption Display"}, {"directly follows"}, {"consumption time series display = active"})
+
+## Consumption time series display is not visible on meter when deactivated
+c4 = ({"Deactivate Consumption Display"}, {"View Consumption Display"}, {"directly follows"}, {"consumption time series display = inactive"})
+
+## Meter reports status to central system as ALARM or EVENT when consumption time series display is activated or deactivated
+c5 = ({"Activate Consumption Display", "Deactivate Consumption Display"}, {"Register Logbook Entry"}, {"directly follows"}, {"status = ALARM or EVENT"})
+
+## Consumption time series display should be synchronized 1-2 times a day
+c6 = ({"Request Consumption Display", "Deactivate Consumption Display"}, {"Request Meter Synchronization"}, {"eventually follows"}, {"synchronization frequency = 1-2 times a day"})
+
+## Consumption time series display should be deactivated for 60 days when customer changes to a new customer
+c7 = ({"Get Number of Customer Change Requests 24h"}, {"Deactivate Consumption Display"}, {"eventually follows"}, {"customer change = true"})
+
+----- END OF: PROMPT 1 GENERATION NR. 2 -----
+
+
+
+----- START OF: PROMPT 1 GENERATION NR. 3 -----
+
+## Customer can activate or deactivate consumption time series display on meter
+c1 = ({Request Consumption Display}, {Activate Consumption Display}, {directly follows}, {customer decision})
+c2 = ({Request Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {customer decision})
+
+## Consumption time series display synchronization with meter setting should be done 1-2 times a day
+c3 = ({Request Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {synchronization frequency = 1-2 times a day})
+
+## Consumption time series display is available on meter for 60 days after activation
+c4 = ({Activate Consumption Display}, {View Consumption Display}, {eventually follows}, {display duration = 60 days})
+
+## Consumption time series display is not visible on meter after deactivation
+c5 = ({Deactivate Consumption Display}, {View Consumption Display}, {eventually follows}, {display duration = 0 days})
+
+## Meter reports status to central system as ALARM or EVENT and enters it in logbook
+c6 = ({Activate Consumption Display}, {Register Display Status}, {directly follows}, {status = "CS Display ON"})
+c7 = ({Deactivate Consumption Display}, {Register Display Status}, {directly follows}, {status = "CS Display OFF"})
+
+## Consumption time series display is deactivated for 60 days after customer change
+c8 = ({Register Logbook Entry}, {Deactivate Consumption Display}, {eventually follows}, {reason = customer change})
+
+----- END OF: PROMPT 1 GENERATION NR. 3 -----
+
+
+--- END OF: SMART METER REQUEST PROMPT 1-----
+
+
+
+
+-------- NOW SWITCHING FROM PROMPT 1 TO PROMPT 2 --------
+
+
+
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+----- START OF: PROMPT 2 GENERATION NR. 1 -----
+
+## Customer can activate or deactivate consumption time series display
+c1 = ({Request Consumption Display}, {Activate Consumption Display}, {directly follows}, {customer_request = activate})
+c2 = ({Request Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {customer_request = deactivate})
+
+## Consumption time series display is synchronized 1-2 times a day
+c3 = ({Activate Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {synchronization_frequency = 1-2 times a day})
+c4 = ({Deactivate Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {synchronization_frequency = 1-2 times a day})
+
+## Consumption time series display is available for 60 days after activation
+c5 = ({Activate Consumption Display}, {View Consumption Display}, {eventually follows}, {display_duration = 60 days})
+
+## Consumption time series display is deactivated for 60 days after customer change
+c6 = ({Retrieve Customer's Last Request Time}, {Deactivate Consumption Display}, {eventually follows}, {customer_change = true})
+
+----- END OF: PROMPT 2 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 2 GENERATION NR. 2 -----
+
+# Constraints for Consumption Display Activation and Deactivation
+
+## Customer can only change the consumption time series display setting 1-2 times a day
+c1 = ({Request Consumption Display}, {Request Consumption Display}, {eventually follows}, {time between requests >= 12 hours}))
+
+## Consumption time series display must be deactivated by default
+c2 = ({START}, {Activate Consumption Display}, {directly follows}, {consumption_time_series_display = deactivated}))
+
+## Consumption time series display must be deactivated by default
+c3 = ({START}, {Deactivate Consumption Display}, {directly follows}, {consumption_time_series_display = deactivated}))
+
+## Consumption time series display must be deactivated for 60 days after a customer change
+c4 = ({Retrieve Customer's Registration Date}, {Activate Consumption Display}, {eventually follows}, {days_since_customer_change >= 60}))
+
+## Consumption time series display must be deactivated for 60 days after a customer change
+c5 = ({Retrieve Customer's Registration Date}, {Deactivate Consumption Display}, {eventually follows}, {days_since_customer_change >= 60}))
+
+## Consumption time series display status must be reported to the central system as ALARM or EVENT
+c6 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {report_status = ALARM OR EVENT}))
+
+## Consumption time series display status must be reported to the central system as ALARM or EVENT
+c7 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {report_status = ALARM OR EVENT}))
+
+## Consumption time series display status must be entered in the logbook
+c8 = ({Activate Consumption Display}, {Register Logbook Entry}, {directly follows}, {logbook_entry = consumption_time_series_display_activated}))
+
+## Consumption time series display status must be entered in the logbook
+c9 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {directly follows}, {logbook_entry = consumption_time_series_display_deactivated}))
+
+----- END OF: PROMPT 2 GENERATION NR. 2 -----
+
+
+
+----- START OF: PROMPT 2 GENERATION NR. 3 -----
+
+# Constraints for Consumption Display Activation/Deactivation
+## Customer can activate or deactivate consumption display via meter's WAN interface
+c1 = ({Request Consumption Display}, {Activate Consumption Display}, {directly follows}, {customer_request = activate})
+c2 = ({Request Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {customer_request = deactivate})
+
+## Consumption display synchronization should occur 1-2 times a day
+c3 = ({Activate Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {synchronization_frequency = 1-2 times a day})
+c4 = ({Deactivate Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {synchronization_frequency = 1-2 times a day})
+
+## Consumption display should be deactivated by default
+c5 = ({START}, {Activate Consumption Display}, {eventually follows}, {default_display_status = deactivated})
+
+## Consumption display should be deactivated for 60 days after a customer change
+c6 = ({Retrieve Customer's Last Request Time}, {Activate Consumption Display}, {eventually follows}, {customer_change_status = true AND deactivation_period = 60 days})
+
+## Consumption display status should be reported to the central system as ALARM or EVENT
+c7 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {})
+c8 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {})
+
+## Consumption display status should be entered in the logbook
+c9 = ({Activate Consumption Display}, {Register Logbook Entry}, {directly follows}, {})
+c10 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {directly follows}, {})
+
+----- END OF: PROMPT 2 GENERATION NR. 3 -----
+
+
+--- END OF: SMART METER REQUEST PROMPT 2-----

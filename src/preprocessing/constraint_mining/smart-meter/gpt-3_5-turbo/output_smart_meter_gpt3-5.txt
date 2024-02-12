@@ -1,0 +1,295 @@
+# Outputs given by the model gpt-3.5-turbo through the UI of ChatGPT from openAI <https://chat.openai.com/>.
+# Prompt 1 and 2 are seperated, each prompt entails 3 generative attemps to showcase the variation in results.
+
+# Reference links for each prompt generation:
+## Prompt 1:
+### Attempt 1: https://chat.openai.com/share/01040c14-b51f-4a4c-ad13-a7c54f0afb09
+### Attempt 2: https://chat.openai.com/share/64331b01-a69c-44e3-9d81-3d5f736a8f50
+### Attempt 3: https://chat.openai.com/share/3877b632-1f52-4ea7-8c8c-0635c9cd3575
+
+## Prompt 2:
+### Attempt 1: https://chat.openai.com/share/58e1a62c-4c29-4e3e-b6a4-cf6b77019928
+### Attempt 2: https://chat.openai.com/share/88014d46-bf9d-4316-b7fa-4f6f5b1a8d13
+### Attempt 3: https://chat.openai.com/share/1a280081-224e-49c6-9c06-3aee9e850059
+
+
+--- START OF: SMART METER REQUEST PROMPT 1-----
+
+----- START OF: PROMPT 1 GENERATION NR. 1 -----
+
+To extract relevant business process constraints from the provided descriptive file ('descriptive_file') based on the activities listed in the 'activities_list,' we will analyze the text and create constraints for each relevant relationship. Here are the extracted constraints along with their descriptions:
+
+# Constraints related to consumption time series display
+
+## Activation or deactivation of the consumption time series display on the meter
+c1 = ({Request Consumption Display}, {Activate Consumption Display}, {directly follows}, {Customer requests activation})
+c2 = ({Request Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {Customer requests deactivation})
+
+## Status reporting when the consumption time series display is activated
+c3 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {Consumption time series display is activated})
+
+## Status reporting when the consumption time series display is deactivated
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {Consumption time series display is deactivated})
+
+## Entry in the logbook when the consumption time series display is activated
+c5 = ({Activate Consumption Display}, {Register Logbook Entry}, {directly follows}, {Consumption time series display is activated})
+
+## Entry in the logbook when the consumption time series display is deactivated
+c6 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {directly follows}, {Consumption time series display is deactivated})
+
+## Synchronization of device setting for consumption time series display
+c7 = ({Get Number of Customer Change Requests 24h}, {Request Meter Synchronization}, {directly follows}, {Synchronization needed})
+
+## Status reporting after synchronization
+c8 = ({Request Meter Synchronization}, {Report Display Status}, {directly follows}, {Synchronization completed})
+
+## Customer's ability to view the load profile when activated
+c9 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {Consumption time series display is active})
+
+## Deactivation of consumption time series display during customer change
+c10 = ({Activate Consumption Display}, {Deactivate Consumption Display}, {eventually follows}, {Customer change})
+
+## Deactivation of consumption time series display for data protection reasons
+c11 = ({Activate Consumption Display}, {Deactivate Consumption Display}, {eventually follows}, {Data protection reasons})
+
+# Constraints related to communication with NB (Notification Broker)
+
+## Notification to NB when activation or deactivation occurs
+c12 = ({Activate Consumption Display}, {Notify NB}, {directly follows}, {Customer requests activation})
+c13 = ({Deactivate Consumption Display}, {Notify NB}, {directly follows}, {Customer requests deactivation})
+
+## Notification to NB after synchronization
+c14 = ({Request Meter Synchronization}, {Notify NB}, {directly follows}, {Synchronization completed})
+
+## Notification to NB during customer change
+c15 = ({Activate Consumption Display}, {Notify NB}, {eventually follows}, {Customer change})
+c16 = ({Deactivate Consumption Display}, {Notify NB}, {eventually follows}, {Customer change})
+
+# Constraints related to the central system status reporting
+
+## Status reporting to the central system when activation or deactivation occurs
+c17 = ({Activate Consumption Display}, {Report to Central System}, {directly follows}, {Customer requests activation})
+c18 = ({Deactivate Consumption Display}, {Report to Central System}, {directly follows}, {Customer requests deactivation})
+
+## Status reporting to the central system after synchronization
+c19 = ({Request Meter Synchronization}, {Report to Central System}, {directly follows}, {Synchronization completed})
+
+## Status reporting to the central system during customer change
+c20 = ({Activate Consumption Display}, {Report to Central System}, {eventually follows}, {Customer change})
+c21 = ({Deactivate Consumption Display}, {Report to Central System}, {eventually follows}, {Customer change})
+
+# Constraints related to the logbook
+
+## Logbook entry when activation or deactivation occurs
+c22 = ({Activate Consumption Display}, {Logbook Entry}, {directly follows}, {Customer requests activation})
+c23 = ({Deactivate Consumption Display}, {Logbook Entry}, {directly follows}, {Customer requests deactivation})
+
+## Logbook entry after synchronization
+c24 = ({Request Meter Synchronization}, {Logbook Entry}, {directly follows}, {Synchronization completed})
+
+## Logbook entry during customer change
+c25 = ({Activate Consumption Display}, {Logbook Entry}, {eventually follows}, {Customer change})
+c26 = ({Deactivate Consumption Display}, {Logbook Entry}, {eventually follows}, {Customer change})
+
+# Description for a group of constraints
+"""
+These constraints describe the business process related to the activation and deactivation of the consumption time series display on the meter. They also cover status reporting, synchronization, communication with NB, and logbook entries associated with these actions.
+"""
+These constraints capture the relationships between activities, the type of relationship (direct or eventual), and the conditions that need to be met for each constraint to be satisfied without violating process rules described in the 'descriptive_file.'
+
+----- END OF: PROMPT 1 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 2 -----
+
+# Extracting Business Process Constraints from Descriptive File
+
+## Product needs to meet quality mark of at least 50 points and have a cardboard package before being shipped
+c1 = ({verify product's quality standards}, {ship product}, {directly follows}, {quality mark >= 50 AND package = cardboard box}))
+
+## After product is shipped, wait 1 day to track updates
+c2 = ({ship product}, {receive shipping updates}, {directly follows}, {waiting period >= 24 hours}))
+
+## Product to deviance evaluation for having less than 50 points of quality but more than 40
+c3 = ({verify product's quality standards}, {send to deviance evaluation}, {directly follows}, {40 < quality points < 50}))
+
+## Encountered an error during product production, send to deviation without analyzing quality
+c4 = ({produce product}, {send to deviance evaluation}, {directly follows}, {error during production}))
+
+## Constraints for Consumption Time Series Display Management
+
+### Customer can activate or deactivate display via WAN interface
+c5 = ({Activate Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {via WAN interface})
+
+### Status to be reported as ALARM or EVENT and entered in logbook
+c6 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {Status = ALARM or EVENT})
+c7 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {Status = ALARM or EVENT})
+
+### In basic setting, display must always be deactivated
+c8 = ({}, {Deactivate Consumption Display}, {directly follows}, {Basic setting active})
+
+### Synchronization needed 1 - 2 times a day
+c9 = ({Request Meter Synchronization}, {}, {directly follows}, {1 <= synchronization frequency <= 2})
+
+### Customer can view load profile for last 60 days when display is active
+c10 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {Display active})
+c11 = ({Activate Consumption Display}, {View Consumption Display}, {eventually follows}, {Display active})
+
+### 60-day deactivation for customer change
+c12 = ({}, {Deactivate Consumption Display}, {eventually follows}, {Customer change})
+
+## Constraints for Customer Communication
+
+### Customer can inform NB through web portal, call center, or letter
+c13 = ({}, {Request Consumption Display}, {directly follows}, {Customer informs via web portal or call center or letter})
+
+### Customer should not be able to change the setting too frequently
+c14 = ({}, {Request Consumption Display}, {eventually follows}, {Frequency of change > 1 minute})
+
+----- END OF: PROMPT 1 GENERATION NR. 2 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 3 -----
+
+# Constraints for Consumption Time Series Display Management
+
+## Activation or deactivation of the consumption time series display
+c1 = ({Activate Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {customer request})
+c2 = ({Deactivate Consumption Display}, {Activate Consumption Display}, {directly follows}, {customer request})
+
+## Transmit status to central system and logbook entry when display changes
+c3 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {status = ALARM or EVENT})
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {status = ALARM or EVENT})
+
+## View load profile for the last 60 days when activated
+c5 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {activated})
+c6 = ({Deactivate Consumption Display}, {View Consumption Display}, {directly follows}, {deactivated})
+
+## Deactivate display during customer change for data protection reasons
+c7 = ({Customer Change}, {Deactivate Consumption Display}, {directly follows}, {customer change})
+
+----- END OF: PROMPT 1 GENERATION NR. 3 -----
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+
+
+
+-------- NOW SWITCHING FROM PROMPT 1 TO PROMPT 2 --------
+
+
+
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+----- START OF: PROMPT 2 GENERATION NR. 1 -----
+
+# Constraints for Consumption Time Series Display
+## Activation or deactivation of the display must be possible via the meter's WAN interface
+c1 = ({Activate Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {activation via WAN interface})
+
+## Status must be transmitted to the central system as ALARM or EVENT and entered in the logbook
+c2 = ({Activate Consumption Display}, {Register Display Status}, {directly follows}, {status = ALARM OR status = EVENT})
+c3 = ({Deactivate Consumption Display}, {Register Display Status}, {directly follows}, {status = ALARM OR status = EVENT})
+
+## In the basic setting of the meter, the display of the consumption time series must always be deactivated
+c4 = ({Activate Consumption Display}, {END}, {directly follows}, {basic setting = deactivated})
+
+## Customer decides whether the display is active or inactive
+c5 = ({Retrieve Customer's Last Request Time}, {Activate Consumption Display}, {directly follows}, {customer decision})
+c6 = ({Retrieve Customer's Last Request Time}, {Deactivate Consumption Display}, {directly follows}, {customer decision})
+
+## Synchronization of the device setting is done 1 - 2 times a day
+c7 = ({Request Meter Synchronization}, {END}, {directly follows}, {synchronization frequency = 1 OR synchronization frequency = 2})
+
+## When activated, the consumption time series is available on the meter display for customers
+c8 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {activated})
+
+## When deactivated, the consumption time series is no longer visible on the meter display for customers
+c9 = ({Deactivate Consumption Display}, {View Consumption Display}, {directly follows}, {deactivated})
+
+## Meter reports status to central system as ALARM or EVENT and enters it in the logbook
+c10 = ({Activate Consumption Display}, {Register Display Status}, {directly follows}, {status = ALARM OR status = EVENT})
+c11 = ({Deactivate Consumption Display}, {Register Display Status}, {directly follows}, {status = ALARM OR status = EVENT})
+
+## Deactivation for data protection reasons in case of customer change
+c12 = ({Activate Consumption Display}, {Deactivate Consumption Display}, {eventually follows}, {customer change})
+c13 = ({Deactivate Consumption Display}, {END}, {eventually follows}, {customer change})
+
+----- END OF: PROMPT 2 GENERATION NR. 1 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 2 -----
+
+# Constraints related to Consumption Time Series Display
+
+## Constraints for Activation and Deactivation
+c1 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {meter's WAN interface allows activation AND status = ALARM or EVENT AND entry in logbook})
+c2 = ({Deactivate Consumption Display}, {View Consumption Display}, {directly follows}, {meter's WAN interface allows deactivation AND status = ALARM or EVENT AND entry in logbook})
+
+## Constraint for Always Deactivated in Basic Setting
+c3 = ({Activate Consumption Display}, {END}, {directly follows}, {meter's basic setting requires deactivation})
+
+## Constraint for Customer Decision
+c4 = ({Retrieve Customer's Registration Date}, {Get Number of Customer Change Requests 24h}, {eventually follows}, {synchronization 1 - 2 times a day})
+
+## Constraint for Viewing Load Profile
+c5 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {customer decision})
+
+## Constraint for Deactivation during Customer Change
+c6 = ({Retrieve Number of Customer Change Requests 24h}, {Deactivate Consumption Display}, {eventually follows}, {customer change})
+
+## Constraint for Deactivation due to Customer Change
+c7 = ({Deactivate Consumption Display}, {END}, {directly follows}, {customer change})
+
+## Constraint for Reporting Status
+c8 = ({Report Display Status}, {Register Display Status}, {directly follows}, {status = ALARM or EVENT AND entry in logbook})
+
+## Constraint for Deactivation during Customer Change
+c9 = ({Register Logbook Entry}, {END}, {directly follows}, {entry in logbook})
+
+## Constraint for Deactivation during Customer Change
+c10 = ({View Consumption Display}, {END}, {directly follows}, {customer change})
+
+----- END OF: PROMPT 2 GENERATION NR. 2 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 3 -----
+
+# Constraints related to the consumption time series display on the meter
+
+## Activation or deactivation of the consumption time series display
+c1 = ({Request Consumption Display}, {Activate Consumption Display}, {directly follows}, {customer informs to activate display})
+c2 = ({Request Consumption Display}, {Deactivate Consumption Display}, {directly follows}, {customer informs to deactivate display})
+
+## Status reporting and logbook entry
+c3 = ({Activate Consumption Display}, {Register Display Status}, {directly follows}, {})
+c4 = ({Deactivate Consumption Display}, {Register Display Status}, {directly follows}, {})
+
+## Availability of consumption time series
+c5 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {})
+c6 = ({Deactivate Consumption Display}, {View Consumption Display}, {directly follows}, {})
+
+## Customer change and deactivation
+c7 = ({Activate Consumption Display}, {Deactivate Consumption Display}, {eventually follows}, {customer change in progress})
+
+## Synchronization frequency
+c8 = ({Request Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {synchronization frequency <= 2 times a day})
+
+## Default setting for meter
+c9 = ({START}, {Request Consumption Display}, {directly follows}, {default setting = consumption time series deactivated})
+
+# Constraints related to customer interaction and data protection
+
+## Customer decision on display
+c10 = ({Retrieve Customer's Registration Date}, {Retrieve Customer's Last Request Time}, {directly follows}, {})
+c11 = ({Retrieve Customer's Registration Date}, {Retrieve Customer's Last Request Time}, {eventually follows}, {customer informs})
+
+## Data protection requirement
+c12 = ({Retrieve Customer's Registration Date}, {Activate Consumption Display}, {directly follows}, {data protection requirement = special cases})
+c13 = ({Retrieve Customer's Registration Date}, {Deactivate Consumption Display}, {directly follows}, {data protection requirement = special cases})
+
+## Customer change and deactivation
+c14 = ({Retrieve Customer's Registration Date}, {Deactivate Consumption Display}, {eventually follows}, {customer change in progress})
+
+----- END OF: PROMPT 2 GENERATION NR. 3 -----
+
+--- END OF: SMART METER REQUEST PROMPT 2-----

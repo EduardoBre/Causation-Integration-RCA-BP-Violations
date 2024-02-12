@@ -1,0 +1,1570 @@
+# EVALUATING MINED CONSTRAINTS FROM GPT-3_5 for dataset Coffee-Roasting-Process
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 1
+
+Correct workflow, wrong relationship
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Activation time series display on the meter feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.44999999999999996
+
+Correct workflow, wrong relationship
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Activation time series display on the meter feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.44999999999999996
+
+Correct logic, wrong condition features
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Activation time series display on the meter feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.44999999999999996
+
+Technically correct, wrong condition status
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Report Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.125
+#### constraint-fit-score
+- constraint-fit-score = 0.47500000000000003
+
+Technically correct, wrong condition status
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Report Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.125
+#### constraint-fit-score
+- constraint-fit-score = 0.47500000000000003
+
+Technically correct, wrong condition status
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.125
+#### constraint-fit-score
+- constraint-fit-score = 0.47500000000000003
+
+Technically correct, wrong condition status
+### Constraint 7
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.125
+#### constraint-fit-score
+- constraint-fit-score = 0.47500000000000003
+
+Assuming that this is in regard of at most 2 at least 1 sync a day, correct logic but wrong feature values
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Synchronization max per day feature
+- feature-score = 0.125
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.125
+#### constraint-fit-score
+- constraint-fit-score = 0.47500000000000003
+
+Hard to assume that this constraint is meaningful in any way.
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+The logic is fine, relationship is wrong and condition name is weird, value is fine.
+### Constraint 10
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Display is ON after activation feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+60 days rule, very poorly executed, logic is wrong.
+### Constraint 11
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+60 days rule again, very poorly executed, logic is wrong.
+### Constraint 12
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+The logic is fine, execution is almost correct.
+### Constraint 13
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 0
+#### Logbook Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.30000000000000004
+
+The logic is fine, execution is almost correct.
+### Constraint 14
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 0
+#### Logbook Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.30000000000000004
+
+This constraint has no logic.
+### Constraint 15
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong interpretation of customer change rule.
+### Constraint 16
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong interpretation of customer change rule.
+### Constraint 17
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of C12, same mistake, this will count as a full penalty.
+### Constraint 18
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of C13, same mistake, this will count as a full penalty.
+### Constraint 19
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Makes no sense.
+### Constraint 20
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Absolutely wrong.
+### Constraint 21
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Absolutely wrong.
+### Constraint 22
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of logbook activity, this hast to be count as a penalty.
+### Constraint 23
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of logbook activity, this hast to be count as a penalty.
+### Constraint 24
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of logbook activity, this hast to be count as a penalty.
+### Constraint 25
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of logbook activity, this hast to be count as a penalty.
+### Constraint 26
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of logbook activity, this hast to be count as a penalty.
+### Constraint 27
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 28
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 1 Avr. activity-score = 0.35714285714285715
+#### Attempt 1 Avr. activities-relationship-score = 0.21428571428571427
+#### Attempt 1 Avr. condition-feature-score = 0.08928571428571429
+#### Attempt 1 Avr. constraint-fit-score = 0.175
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 1
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 2
+
+This is a constraint based on the prompt example, makes absolutely no sense.
+### Constraint 1
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+This is a constraint based on the prompt example, makes absolutely no sense.
+### Constraint 2
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+This is a constraint based on the prompt example, makes absolutely no sense.
+### Constraint 3
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+This is a constraint based on the prompt example, makes absolutely no sense.
+### Constraint 4
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Mistake without much logic, the WAN was just a comment and means the interface of the meter.
+### Constraint 5
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Technically correct, because the report status can be perceived as an ENUM, constraint containing OR is wrong
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Incorrect Logbook Entry Constraint feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.375
+#### constraint-fit-score
+- constraint-fit-score = 0.625
+
+Technically correct, because the report status can be perceived as an ENUM, constraint containing OR is wrong
+### Constraint 7
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Incorrect Logbook Entry Constraint feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.375
+#### constraint-fit-score
+- constraint-fit-score = 0.625
+
+This is very wrongfully interpreted.
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Tried to mimic the sync frequency, but somehow missed an activity?
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.325
+
+Correct constraint, activation should lead to display ON
+### Constraint 10
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### View profile when display is active feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+wrong duplication
+### Constraint 11
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Makes absolutely 0 sense.
+### Constraint 12
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+error in interpretation
+### Constraint 13
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Correct 1 min frequency logic, wrong execution
+### Constraint 14
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 1
+#### Customer should not be able to change the setting within 60 secs feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.325
+
+Punishment for missing constraint: 60 days privacy rule
+### Constraint 15
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 2 Avr. activity-score = 0.2
+#### Attempt 2 Avr. activities-relationship-score = 0.3333333333333333
+#### Attempt 2 Avr. condition-feature-score = 0.10833333333333335
+#### Attempt 2 Avr. constraint-fit-score = 0.165
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 2
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 3
+
+Makes no sense
+### Constraint 1
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Makes no sense
+### Constraint 2
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Technically correct, because the logbook status can be perceived as an entry, second condition not really correct.
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Incorrect Logbook Entry Constraint feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.4166666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.65
+
+Technically correct, because the logbook status can be perceived as an entry, second constraint not really correct.
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Incorrect Logbook Entry Constraint feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.4166666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.65
+
+Technically correct, because the report status can be perceived as an ENUM, constraint containing OR is wrong
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.6
+
+Technically correct, because the report status can be perceived as an ENUM, constraint containing OR is wrong
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.6
+
+This is just wrong
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing synchronization period rule
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Data privacy rule
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Logbook Entry Status
+### Constraint 10
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 11
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 3 Avr. activity-score = 0.36363636363636365
+#### Attempt 3 Avr. activities-relationship-score = 0.36363636363636365
+#### Attempt 3 Avr. condition-feature-score = 0.13636363636363635
+#### Attempt 3 Avr. constraint-fit-score = 0.22727272727272727
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 3
+
+## SWITCHING TO PROMPT 2
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 1
+
+Smart Meter interface wrong constraint
+### Constraint 1
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Technically correct, because the logbook status can be perceived as an entry, second condition not really correct, relationship incorrect.
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Incorrect Logbook Entry Constraint feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.4166666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.65
+
+Technically correct, because the logbook status can be perceived as an entry, second constraint not really correct, relationship incorrect.
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Registry Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Registry Entry Constraint feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.4166666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.65
+
+The interpretation of this requirements is incorrect.
+### Constraint 4
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+This logic is wrong.
+### Constraint 5
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+This logic is wrong.
+### Constraint 6
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+first activity label should be "Retrieve Number of Customer Change Requests 24h", condition is correct
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 1
+#### Synchronization 1-2 Times Daily feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.325
+
+correct activation -> display visible constraint
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Display visible after activation feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.55
+
+correct deactivation -> display visible constraint
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Display visible after activation feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.55
+
+Repetition of logbook
+### Constraint 10
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Repetition of logbook
+### Constraint 11
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic
+### Constraint 12
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic
+### Constraint 13
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 14
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 1 Avr. activity-score = 0.2857142857142857
+#### Attempt 1 Avr. activities-relationship-score = 0.35714285714285715
+#### Attempt 1 Avr. condition-feature-score = 0.11607142857142858
+#### Attempt 1 Avr. constraint-fit-score = 0.19464285714285712
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 1
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 2
+
+wrong logic for this requirement
+### Constraint 1
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+wrong logic for this requirement
+### Constraint 2
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+wrong logic and interpretation for this requirement
+### Constraint 3
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Correctly identified but incorrectly defined, wrong relationship, condition is default
+### Constraint 4
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Synchronization rule feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.45000000000000007
+
+right motive, very incorrect logic
+### Constraint 5
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+incorrect logic
+### Constraint 6
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+incorrect logic
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+right motive, very incorrect logic
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+incorrect logic
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+incorrect logic
+### Constraint 10
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 11
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing 60 days privacy rule
+### Constraint 12
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing report event/alarm
+### Constraint 13
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing register in the logbook as event/alarm
+### Constraint 14
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 2 Avr. activity-score = 0.03571428571428571
+#### Attempt 2 Avr. activities-relationship-score = 0.07142857142857142
+#### Attempt 2 Avr. condition-feature-score = 0.020833333333333336
+#### Attempt 2 Avr. constraint-fit-score = 0.03214285714285715
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 2
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 3
+
+Activation of the consumption time series display
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Activation of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Deactivation of the consumption time series display
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Deactivation of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Activate: Status reporting and logbook entry, no conditions
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Status reporting and logbook entry feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Deactivate: Status reporting and logbook entry, no conditions
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Status reporting and logbook entry feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Activate: Availability of consumption time series
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Availability of consumption time series feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Deactivate: Availability of consumption time series
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Availability of consumption time series feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Customer change and deactivation
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Synchronization frequency: wrong
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong Default setting for meter
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic and execution
+### Constraint 10
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic and execution
+### Constraint 11
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic and execution
+### Constraint 12
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic and execution
+### Constraint 13
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic and execution
+### Constraint 14
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing: "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 15
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing: Registering to logbook
+### Constraint 16
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing: Privacy 60 days rule
+### Constraint 17
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 3 Avr. activity-score = 0.35294117647058826
+#### Attempt 3 Avr. activities-relationship-score = 0.23529411764705882
+#### Attempt 3 Avr. condition-feature-score = 0.029411764705882353
+#### Attempt 3 Avr. constraint-fit-score = 0.1411764705882353
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 3
+
+
+## END OF EVALUATION FILE
+

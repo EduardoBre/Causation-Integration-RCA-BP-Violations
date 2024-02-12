@@ -1,0 +1,58 @@
+{
+    "id": "15ff57e6-4e3d-4bc3-869a-738ba23dd32a",
+    "info": {
+        "name": "Event Knowledge Graph",
+        "type": "Event Knowledge Graph",
+        "stats": {
+            "node_type": "Event",
+            "nodes": 3,
+            "relationships": 2
+        }
+    },
+    "nodes": {
+        "1": {
+            "1": {
+                "label": "Subject Activity",
+                "attributes": {
+                    "attribute": "value"
+                },
+                "relationships": [
+                    1
+                ]
+            },
+            "2": {
+                "label": "Object Activity",
+                "attributes": {
+                    "attribute": "value"
+                },
+                "relationships": [
+                    1,
+                    2
+                ]
+            },
+            "3": {
+                "label": "Second Object Activity",
+                "attributes": {
+                    "attribute": "value"
+                },
+                "relationships": [
+                    2
+                ]
+            }
+        }
+    },
+    "relationships": {
+        "directly follows": {
+            "1": {
+                "1": {
+                    "subject": 1,
+                    "object": 2
+                },
+                "2": {
+                    "subject": 2,
+                    "object": 3
+                }
+            }
+        }
+    }
+}

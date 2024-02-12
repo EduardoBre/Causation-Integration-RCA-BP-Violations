@@ -1,0 +1,119 @@
+{
+    "1": {
+        "subject": "Retrieve Customer's Last Request Time",
+        "object": "Request Meter Synchronization",
+        "relationship": "eventually follows",
+        "condition": {
+            "1": {
+                "name": "previous request timestamp",
+                "rule": ">=",
+                "value": "60 seconds"
+            }
+        },
+        "comment": "Customer should not be able to change the setting for load profile display every minute"
+    },
+    "2": {
+        "subject": "Retrieve Customer's Registration Date",
+        "object": "Request Meter Synchronization",
+        "relationship": "eventually follows",
+        "condition": {
+            "1": {
+                "name": "customer registration timestamp",
+                "rule": ">=",
+                "value": "60 days"
+            }
+        },
+        "comment": "Data protection reasons if new customer within last 60 days"
+    },
+    "3": {
+        "subject": "Get Number of Customer Change Request",
+        "object": "Request Meter Synchronization",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "change count in last 24hrs",
+                "rule": "<=",
+                "value": "2"
+            }
+        },
+        "comment": "Synchronization should happen at most twice in a day"
+    },
+    "4": {
+        "subject": "Request Synchronization of Meter Settings",
+        "object": "Activation of Consumption Display",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "synchronization status",
+                "rule": "==",
+                "value": "1"
+            }
+        },
+        "comment": "Correct Synchronization value for activation (set correct value)"
+    },
+    "5": {
+        "subject": "Request Synchronization of Meter Settings",
+        "object": "Deactivation of Consumption Display",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "synchronization status",
+                "rule": "==",
+                "value": "0"
+            }
+        },
+        "comment": "Correct Synchronization value for deactivation (set correct value)"
+    },
+    "6": {
+        "subject": "Report Display Status",
+        "object": "Register Display Status",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "report entry status",
+                "rule": "==",
+                "value": "EVENT"
+            }
+        },
+        "comment": "The meter reports the correct status to the central system for activation"
+    },
+    "7": {
+        "subject": "Report Display Status",
+        "object": "Register Display Status",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "report entry status",
+                "rule": "==",
+                "value": "ALARM"
+            }
+        },
+        "comment": "The meter reports the correct status to the central system for deactivation"
+    },
+    "10": {
+        "subject": "Activation of Consumption Display",
+        "object": "View of Load Profile",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "display view status",
+                "rule": "==",
+                "value": "ON"
+            }
+        },
+        "comment": "When activated, the consumption time series is available on the meter display for customers"
+    },
+    "11": {
+        "subject": "Deactivation of Consumption Display",
+        "object": "View of Load Profile",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "display view status",
+                "rule": "==",
+                "value": "OFF"
+            }
+        },
+        "comment": "When deactivated, the consumption time series is no longer visible on the meter display for customers"
+    }
+}

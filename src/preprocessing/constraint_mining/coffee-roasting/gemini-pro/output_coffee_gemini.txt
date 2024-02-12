@@ -1,0 +1,317 @@
+# Outputs given by the model gemini-pro-vision using the API commands from file 'smart_meter_geminipro.py'.
+# Prompt 1 and 2 are seperated, each prompt entails 3 generative attemps to showcase the variation in results.
+# Temperature is set to 0.1, token limit = 2048 (maximum as of 17.01.2024)
+
+--- START OF: SMART METER REQUEST PROMPT 1-----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 1 -----
+
+# Roasting Guidelines for Different Roast Degrees and Coffee Tray Heights
+
+## General Guidelines:
+c1 = ({[any roasting chamber]}, {[any roasting chamber]}, {directly follows}, {each roasting chamber takes 5 minutes})
+
+## Light Roast:
+### Coffee Tray Height < 180mm:
+c2 = ({[Roasting Chamber 1]}, {[Roasting Chamber 2]}, {directly follows}, {(120° < temperature < 400°)})
+c3 = ({[Roasting Chamber 2]}, {[Roasting Chamber 3]}, {directly follows}, {(220° <= temperature <= 500°)})
+c4 = ({[Roasting Chamber 3]}, {[Final Measure]}, {directly follows}, {temperature = 550°})
+
+### Coffee Tray Height >= 180mm:
+c5 = ({[Roasting Chamber 1]}, {[Roasting Chamber 2]}, {directly follows}, {(140° <= temperature <= 420°)})
+c6 = ({[Roasting Chamber 2]}, {[Roasting Chamber 3]}, {directly follows}, {(240° <= temperature < 520°)})
+c7 = ({[Roasting Chamber 3]}, {[Final Measure]}, {directly follows}, {temperature < 571°})
+
+## Medium Roast:
+### Coffee Tray Height <= 170mm:
+c8 = ({[Roasting Chamber 1]}, {[Roasting Chamber 2]}, {directly follows}, {(170° <= temperature < 450°)})
+c9 = ({[Roasting Chamber 2]}, {[Roasting Chamber 3]}, {directly follows}, {(270° <= temperature < 550°)})
+c10 = ({[Roasting Chamber 3]}, {[Roasting Chamber 4]}, {directly follows}, {(370° <= temperature < 650°)})
+c11 = ({[Roasting Chamber 4]}, {[Final Measure]}, {directly follows}, {temperature <= 550°})
+
+### Coffee Tray Height > 170mm:
+c12 = ({[Roasting Chamber 1]}, {[Roasting Chamber 2]}, {directly follows}, {(temperature < 180°) OR (460° < temperature < 1000°)})
+c13 = ({[Roasting Chamber 2]}, {[Roasting Chamber 3]}, {directly follows}, {(temperature < 290°) OR (570° < temperature < 1000°)})
+c14 = ({[Roasting Chamber 3]}, {[Roasting Chamber 4]}, {directly follows}, {(temperature < 390°) OR (670° < temperature < 1000°)})
+c15 = ({[Roasting Chamber 4]}, {[Final Measure]}, {directly follows}, {temperature <= 560°})
+
+## Dark Roast:
+### Coffee Tray Height >= 175mm:
+c16 = ({[Roasting Chamber 1]}, {[Roasting Chamber 2]}, {directly follows}, {(220° <= temperature <= 580°)})
+c17 = ({[Roasting Chamber 2]}, {[Roasting Chamber 3]}, {directly follows}, {(320° <= temperature <= 680°)})
+c18 = ({[Roasting Chamber 3]}, {[Roasting Chamber 4]}, {directly follows}, {(421° <= temperature < 780°)})
+c19 = ({[Roasting Chamber 4]}, {[Roasting Chamber 5]}, {directly follows}, {(320° <= temperature < 680°)})
+c20 = ({[Roasting Chamber 5]}, {[Final Measure]}, {directly follows}, {temperature <= 580°})
+
+### Coffee Tray Height < 175mm:
+c21 = ({[Roasting Chamber 1]}, {[Roasting Chamber 2]}, {directly follows}, {(200° <= temperature <= 560°)})
+c22 = ({[Roasting Chamber 2]}, {[Roasting Chamber 3]}, {directly follows}, {(300° <= temperature < 660°)})
+c23 = ({[Roasting Chamber 3]}, {[Roasting Chamber 4]}, {directly follows}, {(temperature < 400°) OR (760° < temperature)})
+c24 = ({[Roasting Chamber 4]}, {[Roasting Chamber 5]}, {directly follows}, {(320° <= temperature < 680°)})
+c25 = ({[Roasting Chamber 5]}, {[Final Measure]}, {directly follows}, {temperature <= 560°})
+
+... (The response was truncated because it has reached the token limit. Try to increase the token limit if you need a longer response.)
+
+----- END OF: PROMPT 1 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 2 -----
+
+## Roasting Degrees:
+
+### Light Roast:
+
+c1 = ({'Height Measure'}, {'Roasting Chamber 1'}, {'directly follows'}, {'120° < temperature < 400° AND 180mm <= coffee tray height'})
+
+c2 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'220° <= temperature <= 500° AND 180mm <= coffee tray height'})
+
+c3 = ({'Roasting Chamber 2'}, {'Roasting Chamber 3'}, {'directly follows'}, {'temperature <= 550° AND 180mm <= coffee tray height'})
+
+c4 = ({'Height Measure'}, {'Roasting Chamber 1'}, {'directly follows'}, {'140° <= temperature <= 420° AND coffee tray height > 180mm'})
+
+c5 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'240° <= temperature <= 520° AND coffee tray height > 180mm'})
+
+c6 = ({'Roasting Chamber 2'}, {'Roasting Chamber 3'}, {'directly follows'}, {'temperature < 571° AND coffee tray height > 180mm'})
+
+
+### Medium Roast:
+
+c7 = ({'Height Measure'}, {'Roasting Chamber 1'}, {'directly follows'}, {'170° <= temperature <= 450° AND coffee tray height <= 170mm'})
+
+c8 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'270° <= temperature <= 550° AND coffee tray height <= 170mm'})
+
+c9 = ({'Roasting Chamber 2'}, {'Roasting Chamber 3'}, {'directly follows'}, {'370° <= temperature <= 650° AND coffee tray height <= 170mm'})
+
+c10 = ({'Roasting Chamber 3'}, {'Roasting Chamber 4'}, {'directly follows'}, {'temperature <= 550° AND coffee tray height <= 170mm'})
+
+c11 = ({'Height Measure'}, {'Roasting Chamber 1'}, {'directly follows'}, {'(0°, 180°) < temperature < (460°, 1000°) AND coffee tray height > 170mm'})
+
+c12 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'(0°, 290°) < temperature < (570°, 1000°) AND coffee tray height > 170mm'})
+
+c13 = ({'Roasting Chamber 2'}, {'Roasting Chamber 3'}, {'directly follows'}, {'(0°, 390°) < temperature < (670°, 1000°) AND coffee tray height > 170mm'})
+
+c14 = ({'Roasting Chamber 3'}, {'Roasting Chamber 4'}, {'directly follows'}, {'temperature <= 560° AND coffee tray height > 170mm'})
+
+
+### Dark Roast:
+
+c15 = ({'Height Measure'}, {'Roasting Chamber 1'}, {'directly follows'}, {'220° <= temperature <= 580° AND coffee tray height >= 175mm'})
+
+c16 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'320° <= temperature <= 680° AND coffee tray height >= 175mm'})
+
+c17 = ({'Roasting Chamber 2'}, {'Roasting Chamber 3'}, {'directly follows'}, {'421° <= temperature <= 780° AND coffee tray height >= 175mm'})
+
+c18 = ({'Roasting Chamber 3'}, {'Roasting Chamber 4'}, {'directly follows'}, {'320° <= temperature <= 680° AND coffee tray height >= 175mm'})
+
+c19 = ({'Roasting Chamber 4'}, {'Roasting Chamber 5'}, {'directly follows'}, {'temperature <= 580° AND coffee tray height >= 175mm'})
+
+c20 = ({'Height Measure'}, {'Roasting Chamber 1'}, {'directly follows'}, {'200° <= temperature <= 560° AND coffee tray height < 175mm'})
+
+c21 = ({'Roasting Chamber 1'}, {'Roasting Chamber 2'}, {'directly follows'}, {'300° <= temperature <= 660° AND coffee tray height < 175mm'})
+
+c22 = ({'Roasting Chamber 2'}, {'Roasting Chamber 3'}, {'directly follows'}, {'temperature > 760° OR temperature < 400° AND coffee tray height < 175mm'})
+
+c23 = ({'Roasting Chamber 3'}, {'Roasting Chamber 4'}, {'directly follows'}, {'320° <= temperature <= 680° AND coffee tray height < 175mm'})
+
+c24 = ({'Roasting Chamber 4'}, {'Roasting Chamber 5'}, {'directly follows'}, {'temperature <= 560° AND coffee tray height < 175mm'})
+
+... (The response was truncated because it has reached the token limit. Try to increase the token limit if you need a longer response.)
+
+----- END OF: PROMPT 1 GENERATION NR. 2 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 3 -----
+
+# Roasting Guidelines for Different Coffee Trays and Degrees
+c1 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {(180mm <= height < 220mm AND 120° <= temperature <= 400°) OR (height >= 220mm AND 140° <= temperature <= 420°)})
+
+c2 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {(180mm <= height < 220mm AND 220° <= temperature <= 500°) OR (height >= 220mm AND 240° <= temperature <= 520°)})
+
+c3 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {(180mm <= height < 220mm AND 370° <= temperature <= 650°) OR (height >= 220mm AND 421° <= temperature <= 780°)})
+
+c4 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {(180mm <= height < 220mm AND temperature <= 550°) OR
+(height >= 220mm AND temperature <= 560°)})
+
+c5 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {(height >= 175mm AND temperature <= 580°) OR (height < 175mm AND temperature <= 560°)})
+
+c6 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {(height >= 175mm AND 220° <= temperature <= 580°) OR (height < 175mm AND 200° <= temperature <= 560°)})
+
+c7 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {(height >= 175mm AND 320° <= temperature <= 680°) OR
+(height < 175mm AND 300° <= temperature <= 660°)})
+
+c8 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {(height >= 175mm AND 320° <= temperature <= 680°) OR (height < 175mm AND 400° <= temperature <= 760°)
+})
+
+c9 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {(height >= 175mm AND 320° <= temperature <= 680°) OR (height < 175mm AND 320° <= temperature <= 680°)})
+
+... (The response was truncated because it has reached the token limit. Try to increase the token limit if you need a longer response.)
+
+----- END OF: PROMPT 1 GENERATION NR. 3 -----
+
+
+--- END OF: SMART METER REQUEST PROMPT 1-----
+
+
+
+
+-------- NOW SWITCHING FROM PROMPT 1 TO PROMPT 2 --------
+
+
+
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+----- START OF: PROMPT 2 GENERATION NR. 1 -----
+
+## Roasting Guidelines:
+### Light Roast:
+#### Coffee tray height lower than 180mm:
+c1 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {120° < temperature < 400°})
+c2 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {[220°, 500°]})
+c3 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {temperature <= 550°})
+
+#### Coffee tray height of at least 180mm:
+c4 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {[140°, 420°]})
+c5 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {240° < temperature < 520°})
+c6 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {temperature < 571°})
+
+### Medium Roast:
+#### Coffee tray height of at most 170mm:
+c7 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {[170°, 450°]})
+c8 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {[270°, 550°]})
+c9 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {[370°, 650°]})
+c10 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {temperature <= 550°})
+
+#### Coffee tray height of at least 170mm:
+c11 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {180° < temperature < 460°})
+c12 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {290° < temperature < 570°})
+c13 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {390° < temperature < 670°})
+c14 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {temperature <= 560°})
+
+### Dark Roast:
+#### Coffee pile on the tray reaches 175mm and beyond:
+c15 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {[220°, 580°]})
+c16 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {[320°, 680°]})
+c17 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {[421°, 780°]})
+c18 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {[320°, 680°]})
+c19 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {temperature <= 580°})
+
+#### Coffee piles smaller than 175mm:
+c20 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {[200°, 560°]})
+c21 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {[300°, 660°]})
+c22 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {[400°, 760°]})
+c23 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {[320°, 680°]})
+c24 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {temperature <= 560°})
+
+… (The response was truncated because it has reached the token limit. Try to increase the token limit if you need a longer response.)
+
+----- END OF: PROMPT 2 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 2 GENERATION NR. 2 -----
+
+## Roasting process guidelines
+c1 = ({Moisture Measure}, {Roast Degree Selection}, {directly follows}, {moisture >= 0})
+c2 = ({Roast Degree Selection}, {Roasting Chamber 1}, {directly follows}, {roast_degree = light})
+c3 = ({Roast Degree Selection}, {Roasting Chamber 1}, {directly follows}, {roast_degree = medium})
+c4 = ({Roast Degree Selection}, {Roasting Chamber 1}, {directly follows}, {roast_degree = dark})
+c5 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height >= 180mm AND roast_degree = light})
+c6 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height < 180mm AND roast_degree = light})
+c7 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height >= 170mm AND roast_degree = medium})
+c8 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height < 170mm AND roast_degree = medium})
+c9 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height >= 175mm AND roast_degree = dark})
+c10 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height < 175mm AND roast_degree = dark})
+c11 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height >= 180mm AND roast_degree = light})
+c12 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height < 180mm AND roast_degree = light})
+c13 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height >= 170mm AND roast_degree = medium})
+c14 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height < 170mm AND roast_degree = medium})
+c15 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height >= 175mm AND roast_degree = dark})
+c16 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height < 175mm AND roast_degree = dark})
+c17 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height >= 170mm AND roast_degree = medium})
+c18 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height < 170mm AND roast_degree = medium})
+c19 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height >= 175mm AND roast_degree = dark})
+c20 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height < 175mm AND roast_degree = dark})
+c21 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {height >= 170mm AND roast_degree = medium})
+c22 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {height < 170mm AND roast_degree = medium})
+c23 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {height >= 175mm AND roast_degree = dark})
+c24 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {height < 175mm AND roast_degree = dark})
+c25 = ({Final Measure}, {Quality Assessment}, {directly follows}, {height >= 180mm AND roast_degree = light})
+c26 = ({Final Measure}, {Quality Assessment}, {directly follows}, {height < 180mm AND roast_degree = light})
+c27 = ({Final Measure}, {Quality Assessment}, {directly follows}, {height >= 170mm AND roast_degree = medium})
+c28 = ({Final Measure}, {Quality Assessment}, {directly follows}, {height < 170mm AND roast_degree = medium})
+c29 = ({Final Measure}, {Quality Assessment}, {directly follows}, {height >= 175mm AND roast_degree = dark})
+c30 = ({Final Measure}, {Quality Assessment}, {directly follows}, {height < 175mm AND roast_degree = dark})
+
+## Temperature constraints for roasting ovens
+c31 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height >= 180mm AND roast_degree = light AND (120° <= temperature <= 400°)})
+c32 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height < 180mm AND roast_degree = light AND (140° <= temperature <= 420°)})
+c33 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height >= 180mm AND roast_degree = light AND (220° <= temperature <= 500°)})
+c34 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height < 180mm AND roast_degree = light AND (240° <= temperature <= 520°)})
+c35 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {height >= 180mm AND roast_degree = light AND (temperature <= 550°)})
+c36 = ({Roasting Chamber 3}, {Final Measure}, {directly follows}, {height < 180mm AND roast_degree = light AND (temperature <= 571°)})
+c37 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height >= 170mm AND roast_degree = medium AND (170° <= temperature <= 450°)})
+c38 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height <= 170mm AND roast_degree = medium AND (temperature < 180° OR temperature > 460°)})
+c39 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height >= 170mm AND roast_degree = medium AND (270° <= temperature <= 550°)})
+c40 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height <= 170mm AND roast_degree = medium AND (temperature < 290° OR temperature > 570°)})
+c41 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height >= 170mm AND roast_degree = medium AND (370° <= temperature <= 650°)})
+c42 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height <= 170mm AND roast_degree = medium AND (temperature < 390° OR temperature > 670°)})
+c43 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {height >= 170mm AND roast_degree = medium AND (temperature <= 550°)})
+c44 = ({Roasting Chamber 4}, {Final Measure}, {directly follows}, {height <= 170mm AND roast_degree = medium AND (temperature <= 560°)})
+c45 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height >= 175mm AND roast_degree = dark AND (220° <= temperature <= 580°)})
+c46 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {height < 175mm AND roast_degree = dark AND (200° <= temperature <= 560°)})
+c47 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height >= 175mm AND roast_degree = dark AND (320° <= temperature <= 680°)})
+c48 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {height < 175mm AND roast_degree = dark AND (300° <= temperature <= 660°)})
+c49 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height >= 175mm AND roast_degree = dark AND (420° <= temperature <= 780°)})
+c50 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {height < 175mm AND roast_degree = dark AND (400° >= temperature >= 760°)})
+c51 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {height >= 175mm AND roast_degree = dark AND (320° <= temperature <= 680°)})
+c52 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {height < 175mm AND roast_degree = dark AND (300° <= temperature <= 660°)})
+c53 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {height >= 175mm AND roast_degree = dark AND (temperature <= 580°)})
+c54 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {height < 175mm AND roast_degree = dark AND (temperature <= 560°)})
+
+… (The response was truncated because it has reached the token limit. Try to increase the token limit if you need a longer response.)
+
+----- END OF: PROMPT 2 GENERATION NR. 2 -----
+
+
+
+----- START OF: PROMPT 2 GENERATION NR. 3 -----
+
+## Roasting Guidelines:
+
+### Light Roast:
+c1 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {120° < temperature < 400° AND tray_height < 180mm})
+c2 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {[220°, 500°] AND tray_height < 180mm})
+c3 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {temperature <= 550° AND tray_height < 180mm})
+c4 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {140° < temperature < 420° AND tray_height >= 180mm})
+c5 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {[240°, 520°] AND tray_height >= 180mm})
+c6 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {temperature < 571° AND tray_height >= 180mm})
+
+### Medium Roast:
+c7 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {[170°, 450°] AND tray_height <= 170mm})
+c8 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {[270°, 550°] AND tray_height <= 170mm})
+c9 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {[370°, 650°] AND tray_height <= 170mm})
+c10 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature <= 550° AND tray_height <= 170mm})
+c11 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {180° < temperature < 460° AND tray_height > 170mm})
+c12 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {290° < temperature < 570° AND tray_height > 170mm})
+c13 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {390° < temperature < 670° AND tray_height > 170mm})
+c14 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature <= 560° AND tray_height > 170mm})
+
+### Dark Roast:
+c15 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {220° < temperature < 580° AND tray_height >= 175mm})
+c16 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {320° < temperature < 680° AND tray_height >= 175mm})
+c17 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {421° < temperature < 780° AND tray_height >= 175mm})
+c18 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {320° < temperature < 680° AND tray_height >= 175mm})
+c19 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {temperature <= 580° AND tray_height >= 175mm})
+c20 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {200° < temperature < 560° AND tray_height < 175mm})
+c21 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {300° < temperature < 660° AND tray_height < 175mm})
+c22 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {400° < temperature < 760° AND tray_height < 175mm})
+c23 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {320° < temperature < 680° AND tray_height < 175mm})
+c24 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {temperature <= 560° AND tray_height < 175mm})
+
+… (The response was truncated because it has reached the token limit. Try to increase the token limit if you need a longer response.)
+
+----- END OF: PROMPT 2 GENERATION NR. 3 -----
+
+
+--- END OF: SMART METER REQUEST PROMPT 2-----

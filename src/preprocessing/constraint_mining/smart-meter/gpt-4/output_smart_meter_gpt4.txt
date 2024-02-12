@@ -1,0 +1,176 @@
+# Outputs given by the model gpt-4 through the UI of ChatGPT from openAI <https://chat.openai.com/>.
+# Prompt 1 and 2 are seperated, each prompt entails 3 generative attemps to showcase the variation in results.
+# Tried to set temperature to 0.1 and seed to 24865/956748 (although according to openAI's documentation it is currently not reliable)
+
+# Reference links for each prompt generation:
+## Prompt 1:
+### Attempt 1: https://chat.openai.com/share/6b0ad421-4730-4b42-bffd-954e24e5259f
+### Attempt 2: https://chat.openai.com/share/5cb43c68-c04c-456c-b622-a475a9f4dbf3
+### Attempt 3: https://chat.openai.com/share/5e9e4682-c36f-4b0b-b6c5-762738447fa6
+
+## Prompt 2:
+### Attempt 1: https://chat.openai.com/share/020c2063-9c76-4042-8782-9fc25db97d14
+### Attempt 2: https://chat.openai.com/share/c04f8b1d-b7a5-4927-8dc3-79305669a018
+### Attempt 3: https://chat.openai.com/share/7ca89b51-52a4-4593-99cd-366a3ea24066
+
+
+--- START OF: SMART METER REQUEST PROMPT 1-----
+
+----- START OF: PROMPT 1 GENERATION NR. 1 -----
+
+# Constraints for Managing Consumption Time Series Display
+## Activation or Deactivation of Consumption Time Series Display Requires Synchronization and Logging
+c1 = ({Activate Consumption Display}, {Register Logbook Entry}, {directly follows}, {status = ALARM OR EVENT}))
+c2 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {directly follows}, {status = ALARM OR EVENT}))
+
+## Display Activation/Deactivation Must Be Communicated to Customer and Logged
+c3 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {status = CS Display ON}))
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {status = CS Display OFF}))
+
+## Viewing of Load Profile is Restricted to Non-New Customers and When Display is Active
+c5 = ({View Consumption Display}, {Request Consumption Display}, {eventually follows}, {customer != new AND display = active}))
+
+## Customer's Request for Display Changes Must Be Registered
+c6 = ({Request Consumption Display}, {Register Display Status}, {directly follows}, {request type = activate OR deactivate}))
+
+## Synchronization of Display Settings Should Occur 1-2 Times Daily
+c7 = ({Request Meter Synchronization}, {Retrieve Customer's Registration Date}, {eventually follows}, {synchronization frequency >= 1 AND <= 2 times per day}))
+
+## Consumption Display Deactivation for 60 Days after Customer Change
+c8 = ({'Retrieve Customer's Last Request Time'}, {'Request Consumption Display'}, {eventually follows}, {time since last request >= 60 days}))
+
+----- END OF: PROMPT 1 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 2 -----
+
+## Consumption display activation or deactivation requires synchronization and logbook registration
+c1 = ({Activate Consumption Display}, {Register Logbook Entry}, {directly follows}, {status = 'CS Display ON' AND logbook entry required}))
+c2 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {directly follows}, {status = 'CS Display OFF' AND logbook entry required}))
+
+## Display activation or deactivation must be reported as ALARM or EVENT
+c3 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {report type = 'ALARM' OR 'EVENT'}))
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {report type = 'ALARM' OR 'EVENT'}))
+
+## Synchronization of consumption display settings should occur 1-2 times daily
+c5 = ({Request Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {frequency >= 1 AND <= 2 times per day}))
+
+## Consumption time series display is subject to a 60-day deactivation period for new customers
+c6 = ({Retrieve Customer's Registration Date}, {Activate Consumption Display}, {eventually follows}, {time since registration >= 60 days}))
+
+## Viewing consumption display is only possible when it's activated
+c7 = ({Activate Consumption Display}, {View Consumption Display}, {eventually follows}, {display status = 'ON'}))
+c8 = ({Deactivate Consumption Display}, {View Consumption Display}, {eventually follows}, {display status = 'OFF'}))
+
+----- END OF: PROMPT 1 GENERATION NR. 2 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 3 -----
+
+# Activation or deactivation of consumption time series display must be registered and reported
+c1 = ({Activate Consumption Display}, {Register Logbook Entry}, {directly follows}, {status = ALARM OR EVENT}))
+c2 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {directly follows}, {status = ALARM OR EVENT}))
+
+# Display status should be transmitted to the central system
+c3 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {report status = CS Display ON}))
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {report status = CS Display OFF}))
+
+# Consumption display activation requires customer notification to NB
+c5 = ({Activate Consumption Display}, {Register Display Status}, {directly follows}, {customer notification to NB}))
+
+# Consumption display deactivation requires customer notification to NB
+c6 = ({Deactivate Consumption Display}, {Register Display Status}, {directly follows}, {customer notification to NB}))
+
+# Synchronization of consumption display settings should be between 1-2 times a day
+c7 = ({Request Meter Synchronization}, {Activate Consumption Display}, {eventually follows}, {synchronization frequency >= 1 AND <= 2 times per day}))
+c8 = ({Request Meter Synchronization}, {Deactivate Consumption Display}, {eventually follows}, {synchronization frequency >= 1 AND <= 2 times per day}))
+
+# Consumption time series display is deactivated for 60 days after a customer change
+c9 = ({View Consumption Display}, {Activate Consumption Display}, {eventually follows}, {waiting period >= 60 days after customer change}))
+
+----- END OF: PROMPT 1 GENERATION NR. 3 -----
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+
+
+
+-------- NOW SWITCHING FROM PROMPT 1 TO PROMPT 2 --------
+
+
+
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+----- START OF: PROMPT 2 GENERATION NR. 1 -----
+
+# Constraints related to the activation and deactivation of the consumption time series display
+## Activation or deactivation of the display must be logged and reported
+c1 = ({Activate Consumption Display}, {Register Logbook Entry}, {directly follows}, {logbook_entry = "CS Display ON"}))
+c2 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {directly follows}, {logbook_entry = "CS Display OFF"}))
+c3 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {status_report = "ALARM/EVENT: CS Display ON"}))
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {status_report = "ALARM/EVENT: CS Display OFF"}))
+
+# Synchronization of the display setting should not exceed twice a day
+c5 = ({Request Meter Synchronization}, {Activate Consumption Display}, {eventually follows}, {synchronization_frequency <= 2/day}))
+c6 = ({Request Meter Synchronization}, {Deactivate Consumption Display}, {eventually follows}, {synchronization_frequency <= 2/day}))
+
+# Data protection constraints on viewing consumption time series
+## Viewing is restricted during customer change
+c7 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {customer_change = false}))
+c8 = ({Deactivate Consumption Display}, {View Consumption Display}, {eventually follows}, {customer_change = true AND display_deactivation_period = 60 days}))
+
+# Reporting the display status to the central system
+c9 = ({Report Display Status}, {Register Display Status}, {directly follows}, {status = "CS Display ON" OR "CS Display OFF"}))
+
+----- END OF: PROMPT 2 GENERATION NR. 1 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 2 -----
+
+# Activation or Deactivation of Consumption Time Series Display Requires Customer Notification and Logbook Entry
+c1 = ({Activate Consumption Display}, {Register Logbook Entry}, {eventually follows}, {customer_notification = TRUE AND logbook_entry = 'CS Display ON'}))
+c2 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {eventually follows}, {customer_notification = TRUE AND logbook_entry = 'CS Display OFF'}))
+
+# Status of Consumption Time Series Display (Active/Inactive) Must Be Reported
+c3 = ({Activate Consumption Display}, {Report Display Status}, {directly follows}, {display_status = 'CS Display ON'}))
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {directly follows}, {display_status = 'CS Display OFF'}))
+
+# Consumption Time Series Display Can Only Be Viewed When Activated
+c5 = ({View Consumption Display}, {Activate Consumption Display}, {eventually follows}, {display_status = 'CS Display ON'}))
+
+# Synchronization of Consumption Time Series Display Settings to be Limited
+c6 = ({Request Meter Synchronization}, {Activate Consumption Display}, {eventually follows}, {sync_frequency >= 1 AND sync_frequency <= 2 times per day}))
+c7 = ({Request Meter Synchronization}, {Deactivate Consumption Display}, {eventually follows}, {sync_frequency >= 1 AND sync_frequency <= 2 times per day}))
+
+# Display of Consumption Time Series Must Be Deactivated for 60 Days in Case of Customer Change
+c8 = ({Activate Consumption Display}, {View Consumption Display}, {eventually follows}, {customer_change = FALSE OR days_since_change >= 60}))
+
+----- END OF: PROMPT 2 GENERATION NR. 2 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 3 -----
+
+# Constraints related to the activation or deactivation of the consumption time series display
+## Activation or deactivation of consumption display must be reported as ALARM or EVENT
+c1 = ({Activate Consumption Display}, {Register Logbook Entry}, {eventually follows}, {report_status = ALARM OR EVENT}))
+c2 = ({Deactivate Consumption Display}, {Register Logbook Entry}, {eventually follows}, {report_status = ALARM OR EVENT}))
+
+# Activation or deactivation of consumption display must synchronize with central system and report status
+c3 = ({Activate Consumption Display}, {Report Display Status}, {eventually follows}, {sync_status = True AND report_status = 'CS Display ON'}))
+c4 = ({Deactivate Consumption Display}, {Report Display Status}, {eventually follows}, {sync_status = True AND report_status = 'CS Display OFF'}))
+
+# Constraint related to customer's ability to view consumption time series
+## Consumption display can show the last 60 days load profile only when activated
+c5 = ({Activate Consumption Display}, {View Consumption Display}, {directly follows}, {display_period <= 60 days}))
+
+# Constraint related to data protection laws during a customer change
+## Deactivation of consumption display for 60 days in case of a new customer
+c6 = ({Retrieve Customer's Registration Date}, {Deactivate Consumption Display}, {eventually follows}, {new_customer = True AND deactivation_period = 60 days}))
+
+# Constraint related to the synchronization frequency of the consumption time series display
+## Synchronization of consumption display setting to occur 1-2 times a day
+c7 = ({Activate Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {sync_frequency >= 1 AND <= 2 times/day}))
+c8 = ({Deactivate Consumption Display}, {Request Meter Synchronization}, {eventually follows}, {sync_frequency >= 1 AND <= 2 times/day}))
+
+----- END OF: PROMPT 2 GENERATION NR. 3 -----
+
+--- END OF: SMART METER REQUEST PROMPT 2-----

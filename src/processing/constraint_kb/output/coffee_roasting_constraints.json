@@ -1,0 +1,677 @@
+{
+    "1": {
+        "subject": "Roasting Chamber 3",
+        "object": "Roasting Chamber 4",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "1": {
+                    "name": "roasting degree",
+                    "rule": "==",
+                    "value": "1"
+                },
+                "2": {
+                    "name": "roasting degree",
+                    "rule": "==",
+                    "value": "2"
+                }
+            }
+        },
+        "comment": "Topology Order"
+    },
+    "2": {
+        "subject": "Roasting Chamber 4",
+        "object": "Roasting Chamber 5",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            }
+        },
+        "comment": "Topology Order"
+    },
+    "3": {
+        "subject": "Roasting Chamber 1",
+        "object": "Roasting Chamber 2",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "0"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "180"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "120"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "400"
+            }
+        },
+        "comment": "Gold Standard: light roast"
+    },
+    "4": {
+        "subject": "Roasting Chamber 2",
+        "object": "Roasting Chamber 3",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "0"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "180"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "220"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "500"
+            }
+        },
+        "comment": "Gold Standard: light roast"
+    },
+    "5": {
+        "subject": "Roasting Chamber 3",
+        "object": "Final Measure",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "0"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "180"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "550"
+            }
+        },
+        "comment": "Gold Standard: light roast"
+    },
+    "6": {
+        "subject": "Roasting Chamber 1",
+        "object": "Roasting Chamber 2",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "0"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "180"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "140"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "420"
+            }
+        },
+        "comment": "Gold Standard: light roast"
+    },
+    "7": {
+        "subject": "Roasting Chamber 2",
+        "object": "Roasting Chamber 3",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "0"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "180"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "240"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "520"
+            }
+        },
+        "comment": "Gold Standard: light roast"
+    },
+    "8": {
+        "subject": "Roasting Chamber 3",
+        "object": "Final Measure",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "0"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "180"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "570"
+            }
+        },
+        "comment": "Gold Standard: light roast"
+    },
+    "9": {
+        "subject": "Roasting Chamber 1",
+        "object": "Roasting Chamber 2",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "170"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "450"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "10": {
+        "subject": "Roasting Chamber 2",
+        "object": "Roasting Chamber 3",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "270"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "550"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "11": {
+        "subject": "Roasting Chamber 3",
+        "object": "Roasting Chamber 4",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "370"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "650"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "12": {
+        "subject": "Roasting Chamber 4",
+        "object": "Final Measure",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "550"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "13": {
+        "subject": "Roasting Chamber 1",
+        "object": "Roasting Chamber 2",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "180"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "460"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "14": {
+        "subject": "Roasting Chamber 2",
+        "object": "Roasting Chamber 3",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "290"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "570"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "15": {
+        "subject": "Roasting Chamber 3",
+        "object": "Roasting Chamber 4",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "390"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "670"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "16": {
+        "subject": "Roasting Chamber 4",
+        "object": "Final Measure",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "1"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "170"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "560"
+            }
+        },
+        "comment": "Gold Standard: medium roast"
+    },
+    "17": {
+        "subject": "Roasting Chamber 1",
+        "object": "Roasting Chamber 2",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "200"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "560"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "18": {
+        "subject": "Roasting Chamber 2",
+        "object": "Roasting Chamber 3",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "300"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "660"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "19": {
+        "subject": "Roasting Chamber 3",
+        "object": "Roasting Chamber 4",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "400"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "760"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "20": {
+        "subject": "Roasting Chamber 4",
+        "object": "Roasting Chamber 5",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "300"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "660"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "21": {
+        "subject": "Roasting Chamber 5",
+        "object": "Final Measure",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": "<",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "560"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "22": {
+        "subject": "Roasting Chamber 1",
+        "object": "Roasting Chamber 2",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "220"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "580"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "23": {
+        "subject": "Roasting Chamber 2",
+        "object": "Roasting Chamber 3",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "320"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "680"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "24": {
+        "subject": "Roasting Chamber 3",
+        "object": "Roasting Chamber 4",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "420"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "780"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "25": {
+        "subject": "Roasting Chamber 4",
+        "object": "Roasting Chamber 5",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": ">=",
+                "value": "320"
+            },
+            "4": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "680"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    },
+    "26": {
+        "subject": "Roasting Chamber 5",
+        "object": "Final Measure",
+        "relationship": "directly follows",
+        "condition": {
+            "1": {
+                "name": "roasting degree",
+                "rule": "==",
+                "value": "2"
+            },
+            "2": {
+                "name": "tray height",
+                "rule": ">=",
+                "value": "175"
+            },
+            "3": {
+                "name": "temperature",
+                "rule": "<=",
+                "value": "580"
+            }
+        },
+        "comment": "Gold Standard: dark roast"
+    }
+}

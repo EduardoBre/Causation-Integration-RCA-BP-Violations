@@ -1,0 +1,901 @@
+# EVALUATING MINED CONSTRAINTS FROM Gemini-Pro for dataset Coffee-Roasting-Process
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 1
+
+Correct: Customer can activate consumption time series display
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Customer can activate consumption time series display feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.16666666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.5
+
+Correct: Consumption time series display is available on meter display when activated
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Activation time series display on the meter feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.42500000000000004
+
+Correct: Consumption time series display is not available on meter display when deactivated
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Activation time series display on the meter feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.42500000000000004
+
+Verry Correct: Synchronization frequency 24hrs
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Synchronization frequency 24hrs feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+60 days privacy rule is wrongly defined
+### Constraint 5
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 6
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Report Status to NB
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Register Status in logbook
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 1 Avr. activity-score = 0.5
+#### Attempt 1 Avr. activities-relationship-score = 0.25
+#### Attempt 1 Avr. condition-feature-score = 0.13020833333333334
+#### Attempt 1 Avr. constraint-fit-score = 0.24062500000000003
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 1
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 2
+
+Disrespecting the syntax, 3 activities
+### Constraint 1
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Disrespecting the syntax, 3 activities
+### Constraint 2
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Correct: Consumption time series display is available on meter display when activated
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Activation time series display on the meter feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+Correct: Consumption time series display is not available on meter display when deactivated
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Activation time series display on the meter feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+This is related to registering, it is correct, but it disrespected the syntax.
+### Constraint 5
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Synchronization is correct, but disrespected the syntax.
+### Constraint 6
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+60 days privacy rule is wrong.
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Report Status to NB
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 2 Avr. activity-score = 0.2222222222222222
+#### Attempt 2 Avr. activities-relationship-score = 0.2222222222222222
+#### Attempt 2 Avr. condition-feature-score = 0.06481481481481483
+#### Attempt 2 Avr. constraint-fit-score = 0.1277777777777778
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 2
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 3
+
+Correct: Consumption time series display is available on meter display when activated
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Activation time series display on the meter feature
+- feature-score = 0.125
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.125
+#### constraint-fit-score
+- constraint-fit-score = 0.325
+
+Correct: Consumption time series display is not available on meter display when deactivated
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Deactivation time series display on the meter feature
+- feature-score = 0.125
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.125
+#### constraint-fit-score
+- constraint-fit-score = 0.325
+
+The explanation and overall logic do not match.
+### Constraint 3
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+The explanation and overall logic do not match.
+### Constraint 4
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Meter reports status to central system as ALARM or EVENT
+### Constraint 5
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.475
+
+Meter reports status to central system as ALARM or EVENT
+### Constraint 6
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook Entry Constraint feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.475
+
+Wrong data privacy reason.
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Report Status to NB
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 3 Avr. activity-score = 0.3333333333333333
+#### Attempt 3 Avr. activities-relationship-score = 0.2222222222222222
+#### Attempt 3 Avr. condition-feature-score = 0.10185185185185183
+#### Attempt 3 Avr. constraint-fit-score = 0.17777777777777778
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 3
+
+## SWITCHING TO PROMPT 2
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 1
+
+Correctly identified constraint for activation, wrong relationship
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Request for Activation leads to Activation feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.44999999999999996
+
+Correctly identified constraint for deactivation, wrong relationship
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Request for Deactivation leads to Deactivation feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.44999999999999996
+
+Correct identification, wrong logic execution
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### time series display is synchronized 1-2 times a day feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.42500000000000004
+
+Correct identification, wrong logic execution
+### Constraint 4
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 0
+#### time series display is synchronized 1-2 times a day feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.30000000000000004
+
+This is a wrong interpretation of the display rules.
+### Constraint 5
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic for 60 days privacy rule.
+### Constraint 6
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Report Status to NB
+### Constraint 7
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing Record Logbook Status
+### Constraint 8
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 9
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 1 Avr. activity-score = 0.3888888888888889
+#### Attempt 1 Avr. activities-relationship-score = 0.0
+#### Attempt 1 Avr. condition-feature-score = 0.1388888888888889
+#### Attempt 1 Avr. constraint-fit-score = 0.18055555555555555
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 1
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 2
+
+Ok interpretation.
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Synchronization 1-2 times a day feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.42500000000000004
+
+Wrong logic of default visibility.
+### Constraint 2
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Wrong logic of default visibility.
+### Constraint 3
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Data privacy rule, the comment is wrong, but the constraint is correct.
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Data privacy rule feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+Data privacy rule, the comment is wrong, but the constraint is correct.
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Data privacy rule feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+Activation of consumption time series display status must be reported.
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Activation of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.55
+
+Deactivation of consumption time series display status must be reported.
+### Constraint 7
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Deactivation of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.55
+
+Activation display status must be entered in the logbook.
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Activation of the consumption time feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+Deactivation display status must be entered in the logbook.
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Deactivation of the consumption time feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.2916666666666667
+#### constraint-fit-score
+- constraint-fit-score = 0.5750000000000001
+
+Punishment for missing constraint: Missing "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 10
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 2 Avr. activity-score = 0.7
+#### Attempt 2 Avr. activities-relationship-score = 0.6
+#### Attempt 2 Avr. condition-feature-score = 0.19583333333333336
+#### Attempt 2 Avr. constraint-fit-score = 0.3825
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 2
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 3
+
+Correct logic for request and activate.
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### activate consumption display feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.6
+
+Correct logic for request and deactivate.
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### deactivate consumption display feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.3333333333333333
+#### constraint-fit-score
+- constraint-fit-score = 0.6
+
+Ok interpretation, synchronization for activation.
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Synchronization 1-2 times a day feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Ok interpretation, synchronization for activation.
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Synchronization 1-2 times a day feature
+- feature-score = 0
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.25
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Misinterpretation: Consumption display should be deactivated by default
+### Constraint 5
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Activation of consumption time series display status must be reported.
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Reporting activation of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Deactivation of consumption time series display status must be reported.
+### Constraint 7
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Reporting deactivation of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Activation display status must be entered in the logbook.
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook entry activation of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Deactivation display status must be entered in the logbook.
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Logbook entry of the consumption time feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.4
+
+Punishment for missing constraint: Missing: "Customer should not be able to change the setting for load profile display every minute"
+### Constraint 10
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+Punishment for missing constraint: Missing: Privacy 60 days rule
+### Constraint 11
+#### activity pair score
+- activity-score = 0
+#### activities relationship score
+- activities-relationship-score = 0
+####  feature
+- feature-score = 0
+- feature-value-score = 0
+- feature-relationship-score = 0
+#### condition feature score
+- condition-feature-score = 0.0
+#### constraint-fit-score
+- constraint-fit-score = 0.0
+
+#### Attempt 3 Avr. activity-score = 0.7272727272727273
+#### Attempt 3 Avr. activities-relationship-score = 0.5454545454545454
+#### Attempt 3 Avr. condition-feature-score = 0.10606060606060605
+#### Attempt 3 Avr. constraint-fit-score = 0.3272727272727272
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 3
+
+
+## END OF EVALUATION FILE
+

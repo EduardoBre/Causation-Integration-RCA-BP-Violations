@@ -1,0 +1,329 @@
+# Outputs given by the model gpt-4 through the UI of ChatGPT from openAI <https://chat.openai.com/>.
+# Prompt 1 and 2 are seperated, each prompt entails 3 generative attemps to showcase the variation in results.
+# Tried to set temperature to 0.1 and seed to 23567 (although according to openAI's documentation it is currently not reliable)
+
+# Reference links for each prompt generation:
+## Prompt 1:
+### Attempt 1: https://chat.openai.com/share/68530ccd-ac67-4cff-b57a-7ee70703016a
+### Attempt 2: https://chat.openai.com/share/8c43cd36-b6bc-4b03-9745-7e986526be72
+### Attempt 3: https://chat.openai.com/share/4fa7410c-b84b-42c2-b979-1f155d53483a
+
+## Prompt 2:
+### Attempt 1: https://chat.openai.com/share/858507eb-a72c-4a37-9eb1-91732693ea72
+### Attempt 2: https://chat.openai.com/share/6e0044e2-b172-46a6-99f1-d41facf72660
+### Attempt 3: https://chat.openai.com/share/3f3c374f-2cf5-4807-8ee5-7d5f1fbab93e
+
+
+--- START OF: SMART METER REQUEST PROMPT 1-----
+
+----- START OF: PROMPT 1 GENERATION NR. 1 -----
+
+# Constraints for Roasting Process in Relation to Roasting Chambers and Coffee Tray Heights
+## Light Roast with Tray Height < 180mm
+c1 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {120° <= temperature <= 400°}))
+c2 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {220° <= temperature <= 500°}))
+c3 = ({Roasting Chamber 3}, {Final Measure}, {eventually follows}, {temperature = 550°}))
+
+## Light Roast with Tray Height >= 180mm
+c4 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {140° <= temperature <= 420°}))
+c5 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {240° <= temperature <= 520°}))
+c6 = ({Roasting Chamber 3}, {Final Measure}, {eventually follows}, {temperature <= 571°}))
+
+## Medium Roast with Tray Height <= 170mm
+c7 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {170° <= temperature <= 450°}))
+c8 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {270° <= temperature <= 550°}))
+c9 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {370° <= temperature <= 650°}))
+c10 = ({Roasting Chamber 4}, {Final Measure}, {eventually follows}, {temperature <= 550°}))
+
+## Medium Roast with Tray Height > 170mm
+c11 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {temperature NOT IN (0°, 180°) AND (460°, 1000°)}))
+c12 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {temperature NOT IN (0°, 290°) AND (570°, 1000°)}))
+c13 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature NOT IN (0°, 390°) AND (670°, 1000°)}))
+c14 = ({Roasting Chamber 4}, {Final Measure}, {eventually follows}, {temperature <= 560°}))
+
+## Dark Roast with Tray Height >= 175mm
+c15 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {220° <= temperature <= 580°}))
+c16 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {320° <= temperature <= 680°}))
+c17 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {421° <= temperature <= 780°}))
+c18 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {320° <= temperature <= 680°}))
+c19 = ({Roasting Chamber 5}, {Final Measure}, {eventually follows}, {temperature <= 580°}))
+
+## Dark Roast with Tray Height < 175mm
+c20 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {200° <= temperature <= 560°}))
+c21 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {300° <= temperature <= 660°}))
+c22 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {400° <= temperature <= 760°}))
+c23 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {320° <= temperature <= 680°}))
+c24 = ({Roasting Chamber 5}, {Final Measure}, {eventually follows}, {temperature <= 560°}))
+
+----- END OF: PROMPT 1 GENERATION NR. 1 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 2 -----
+
+# Constraints for the Coffee Roasting Process
+## Light Roast with Tray Height < 180mm
+c1 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {120° ≤ temperature ≤ 400°})
+c2 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {220° ≤ temperature ≤ 500°})
+c3 = ({Roasting Chamber 3}, {Final Measure}, {eventually follows}, {temperature = 550°})
+
+## Light Roast with Tray Height ≥ 180mm
+c4 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {140° ≤ temperature ≤ 420°})
+c5 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {240° ≤ temperature ≤ 520°})
+c6 = ({Roasting Chamber 3}, {Final Measure}, {eventually follows}, {temperature < 571°})
+
+## Medium Roast with Tray Height ≤ 170mm
+c7 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {170° ≤ temperature ≤ 450°})
+c8 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {270° ≤ temperature ≤ 550°})
+c9 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {370° ≤ temperature ≤ 650°})
+c10 = ({Roasting Chamber 4}, {Final Measure}, {eventually follows}, {temperature ≤ 550°})
+
+## Medium Roast with Tray Height > 170mm
+c11 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {temperature ∉ (0°, 180°) AND temperature ∉ (460°, 1000°)})
+c12 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {temperature ∉ (0°, 290°) AND temperature ∉ (570°, 1000°)})
+c13 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature ∉ (0°, 390°) AND temperature ∉ (670°, 1000°)})
+c14 = ({Roasting Chamber 4}, {Final Measure}, {eventually follows}, {temperature ≤ 560°})
+
+## Dark Roast with Tray Height ≥ 175mm
+c15 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {220° ≤ temperature ≤ 580°})
+c16 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {320° ≤ temperature ≤ 680°})
+c17 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {421° ≤ temperature ≤ 780°})
+c18 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {320° ≤ temperature ≤ 680°})
+c19 = ({Roasting Chamber 5}, {Final Measure}, {eventually follows}, {temperature ≤ 580°})
+
+## Dark Roast with Tray Height < 175mm
+c20 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {200° ≤ temperature ≤ 560°})
+c21 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {300° ≤ temperature ≤ 660°})
+c22 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature ∉ (400°, 760°)})
+c23 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {320° ≤ temperature ≤ 680°})
+c24 = ({Roasting Chamber 5}, {Final Measure}, {eventually follows}, {temperature ≤ 560°})
+
+These constraints ensure that the roasting process for different types of coffee (Light, Medium, Dark) adhere to specific temperature guidelines based on the height of the coffee tray in the roasting chambers. This is crucial to maintain quality and flavor profiles specific to each roast type.
+
+----- END OF: PROMPT 1 GENERATION NR. 2 -----
+
+
+----- START OF: PROMPT 1 GENERATION NR. 3 -----
+
+# Constraints related to the Coffee Roasting Process
+## Constraint on Roasting Oven 1 for Light Roast with Tray Height < 180mm
+c1 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height < 180mm AND 120° <= temperature <= 400°}))
+
+## Constraint on Roasting Oven 2 for Light Roast with Tray Height < 180mm
+c2 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {tray height < 180mm AND 220° <= temperature <= 500°}))
+
+## Constraint on Roasting Oven 3 for Light Roast with Tray Height < 180mm
+c3 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {tray height < 180mm AND temperature = 550°}))
+
+## Constraint on Roasting Oven 1 for Light Roast with Tray Height >= 180mm
+c4 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height >= 180mm AND 140° <= temperature <= 420°}))
+
+## Constraint on Roasting Oven 2 for Light Roast with Tray Height >= 180mm
+c5 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {tray height >= 180mm AND 240° <= temperature <= 520°}))
+
+## Constraint on Roasting Oven 3 for Light Roast with Tray Height >= 180mm
+c6 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {tray height >= 180mm AND temperature <= 571°}))
+
+## Constraint on Roasting Oven 1 for Medium Roast with Tray Height <= 170mm
+c7 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height <= 170mm AND 170° <= temperature <= 450°}))
+
+## Constraint on Roasting Oven 2 for Medium Roast with Tray Height <= 170mm
+c8 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {tray height <= 170mm AND 270° <= temperature <= 550°}))
+
+## Constraint on Roasting Oven 3 for Medium Roast with Tray Height <= 170mm
+c9 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {tray height <= 170mm AND 370° <= temperature <= 650°}))
+
+## Constraint on Roasting Oven 4 for Medium Roast with Tray Height <= 170mm
+c10 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height <= 170mm AND temperature <= 550°}))
+
+## Constraint on Roasting Oven 1 for Medium Roast with Tray Height > 170mm
+c11 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height > 170mm AND NOT (0° < temperature < 180° OR 460° < temperature < 1000°)}))
+
+## Constraint on Roasting Oven 2 for Medium Roast with Tray Height > 170mm
+c12 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {tray height > 170mm AND NOT (0° < temperature < 290° OR 570° < temperature < 1000°)}))
+
+## Constraint on Roasting Oven 3 for Medium Roast with Tray Height > 170mm
+c13 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {tray height > 170mm AND NOT (0° < temperature < 390° OR 670° < temperature < 1000°)}))
+
+## Constraint on Roasting Oven 4 for Medium Roast with Tray Height > 170mm
+c14 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height > 170mm AND temperature <= 560°}))
+
+## Constraint on Roasting Oven 1 for Dark Roast with Tray Height >= 175mm
+c15 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height >= 175mm AND 220° <= temperature <= 580°}))
+
+## Constraint on Roasting Oven 2 for Dark Roast with Tray Height >= 175mm
+c16 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {tray height >= 175mm AND 320° <= temperature <= 680°}))
+
+## Constraint on Roasting Oven 3 for Dark Roast with Tray Height >= 175mm
+c17 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {tray height >= 175mm AND 421° <= temperature <= 780°}))
+
+## Constraint on Roasting Oven 4 for Dark Roast with Tray Height >= 175mm
+c18 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height >= 175mm AND 320° <= temperature <= 680°}))
+
+## Constraint on Roasting Oven 5 for Dark Roast with Tray Height >= 175mm
+c19 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {tray height >= 175mm AND temperature <= 580°}))
+
+## Constraint on Roasting Oven 1 for Dark Roast with Tray Height < 175mm
+c20 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height < 175mm AND 200° <= temperature <= 560°}))
+
+## Constraint on Roasting Oven 2 for Dark Roast with Tray Height < 175mm
+c21 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {tray height < 175mm AND 300° <= temperature <= 660°}))
+
+## Constraint on Roasting Oven 3 for Dark Roast with Tray Height < 175mm
+c22 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {tray height < 175mm AND NOT (temperature < 400° OR temperature > 760°)}))
+
+## Constraint on Roasting Oven 4 for Dark Roast with Tray Height < 175mm
+c23 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height < 175mm AND 320° <= temperature <= 680°}))
+
+## Constraint on Roasting Oven 5 for Dark Roast with Tray Height < 175mm
+c24 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {tray height < 175mm AND temperature <= 560°}))
+
+These constraints, derived from the detailed description in the descriptive file, guide the roasting process for different types of coffee (light, medium, and dark) at varying tray heights. They ensure the quality of the coffee by specifying the necessary temperature ranges for each roasting chamber, depending on the type of roast and the height of the coffee pile on the tray. This detailed process control is essential for achieving the desired flavor profile and quality in the final product.
+
+----- END OF: PROMPT 1 GENERATION NR. 3 -----
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+
+
+
+-------- NOW SWITCHING FROM PROMPT 1 TO PROMPT 2 --------
+
+
+
+
+--- START OF: SMART METER REQUEST PROMPT 2-----
+
+----- START OF: PROMPT 2 GENERATION NR. 1 -----
+
+# Constraints regarding the roasting process, temperature regulation, and quality assessment for different roast degrees and coffee tray heights.
+## Light Roast process for tray height lower than 180mm
+c1 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {height < 180 mm}))
+c2 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {120° <= temperature <= 400°}))
+c3 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {220° <= temperature <= 500°}))
+c4 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature = 550°}))
+
+## Light Roast process for tray height of at least 180mm
+c5 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {height >= 180 mm}))
+c6 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {140° <= temperature <= 420°}))
+c7 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {240° <= temperature <= 520°}))
+c8 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature <= 571°}))
+
+## Medium Roast process for tray height of at most 170mm
+c9 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {height <= 170 mm}))
+c10 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {170° <= temperature <= 450°}))
+c11 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {270° <= temperature <= 550°}))
+c12 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {370° <= temperature <= 650°}))
+c13 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {temperature <= 550°}))
+
+## Medium Roast process for tray height of at least 170mm
+c14 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {height >= 170 mm}))
+c15 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {temperature not in (0°, 180°) AND temperature not in (460°, 1000°)}))
+c16 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {temperature not in (0°, 290°) AND temperature not in (570°, 1000°)}))
+c17 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature not in (0°, 390°) AND temperature not in (670°, 1000°)}))
+c18 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {temperature <= 560°}))
+
+## Dark Roast process for tray height of 175mm and beyond
+c19 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {height >= 175 mm}))
+c20 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {220° <= temperature <= 580°}))
+c21 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {320° <= temperature <= 680°}))
+c22 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {421° <= temperature <= 780°}))
+c23 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {320° <= temperature <= 680°}))
+c24 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {temperature <= 580°}))
+
+## Dark Roast process for other tray heights
+c25 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {height < 175 mm}))
+c26 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {200° <= temperature <= 560°}))
+c27 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {300° <= temperature <= 660°}))
+c28 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {temperature not in (400°, 760°)}))
+c29 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {320° <= temperature <= 680°}))
+c30 = ({Roasting Chamber 5}, {Final Measure}, {directly follows}, {temperature <= 560°}))
+
+## Quality assessment criteria
+c31 = ({Final Measure}, {Quality Assessment}, {directly follows}, {compliance with roasting guidelines for chosen roast degree}))
+
+----- END OF: PROMPT 2 GENERATION NR. 1 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 2 -----
+
+# Constraints related to coffee roasting process and oven temperatures
+## For light roast with tray height less than 180mm
+c1 = ({Moisture Measure}, {Roasting Chamber 1}, {directly follows}, {120° ≤ oven 1 temperature ≤ 400°})
+c2 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {220° ≤ oven 2 temperature ≤ 500°})
+c3 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {oven 3 highest temperature = 550°})
+
+## For light roast with tray height at least 180mm
+c4 = ({Moisture Measure}, {Roasting Chamber 1}, {directly follows}, {140° ≤ oven 1 temperature ≤ 420°})
+c5 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {240° ≤ oven 2 temperature ≤ 520°})
+c6 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {oven 3 temperature < 571°})
+
+## For medium roast with tray height at most 170mm
+c7 = ({Moisture Measure}, {Roasting Chamber 1}, {directly follows}, {170° ≤ oven 1 temperature ≤ 450°})
+c8 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {270° ≤ oven 2 temperature ≤ 550°})
+c9 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {370° ≤ oven 3 temperature ≤ 650°})
+c10 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {oven 4 temperature ≤ 550°})
+
+## For medium roast with tray height at least 170mm
+c11 = ({Moisture Measure}, {Roasting Chamber 1}, {directly follows}, {oven 1 temperature ∉ (0°, 180°) AND oven 1 temperature ∉ (460°, 1000°)})
+c12 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {oven 2 temperature ∉ (0°, 290°) AND oven 2 temperature ∉ (570°, 1000°)})
+c13 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {oven 3 temperature ∉ (0°, 390°) AND oven 3 temperature ∉ (670°, 1000°)})
+c14 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {oven 4 temperature ≤ 560°})
+
+## For dark roast with tray height less than 175mm
+c15 = ({Moisture Measure}, {Roasting Chamber 1}, {directly follows}, {200° ≤ oven 1 temperature ≤ 560°})
+c16 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {300° ≤ oven 2 temperature ≤ 660°})
+c17 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {400° ≤ oven 3 temperature ≤ 760°})
+c18 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {320° ≤ oven 4 temperature ≤ 680°})
+c19 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {oven 5 temperature ≤ 560°})
+
+## For dark roast with tray height at least 175mm
+c20 = ({Moisture Measure}, {Roasting Chamber 1}, {directly follows}, {220° ≤ oven 1 temperature ≤ 580°})
+c21 = ({Roasting Chamber 1}, {Roasting Chamber 2}, {directly follows}, {320° ≤ oven 2 temperature ≤ 680°})
+c22 = ({Roasting Chamber 2}, {Roasting Chamber 3}, {directly follows}, {421° ≤ oven 3 temperature ≤ 780°})
+c23 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {320° ≤ oven 4 temperature ≤ 680°})
+c24 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {oven 5 temperature ≤ 580°})
+
+## Additional constraints
+Coffee beans must be roasted for 5 minutes in each chamber
+c25 = ({Height Measure}, {Moisture Measure}, {eventually follows}, {roasting time per chamber = 5 minutes}))
+
+----- END OF: PROMPT 2 GENERATION NR. 2 -----
+
+----- START OF: PROMPT 2 GENERATION NR. 3 -----
+
+# Constraints for Coffee Roasting Process
+## Roasting Chamber Temperature and Tray Height Constraints for Light Roast
+c1 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height < 180mm AND temperature = [120°, 400°]}).
+c2 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height >= 180mm AND temperature = [140°, 420°]}).
+c3 = ({Moisture Measure}, {Roasting Chamber 2}, {directly follows}, {tray height < 180mm AND temperature = [220°, 500°]}).
+c4 = ({Moisture Measure}, {Roasting Chamber 2}, {directly follows}, {tray height >= 180mm AND temperature = [240°, 520°]}).
+c5 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {tray height < 180mm AND temperature <= 550°}).
+c6 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {tray height >= 180mm AND temperature <= 571°}).
+
+## Roasting Chamber Temperature and Tray Height Constraints for Medium Roast
+c7 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height <= 170mm AND temperature = [170°, 450°]}).
+c8 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height > 170mm AND temperature NOT IN (0°, 180°) AND (460°, 1000°)}).
+c9 = ({Moisture Measure}, {Roasting Chamber 2}, {directly follows}, {tray height <= 170mm AND temperature = [270°, 550°]}).
+c10 = ({Moisture Measure}, {Roasting Chamber 2}, {directly follows}, {tray height > 170mm AND temperature NOT IN (0°, 290°) AND (570°, 1000°)}).
+c11 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {tray height <= 170mm AND temperature = [370°, 650°]}).
+c12 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {tray height > 170mm AND temperature NOT IN (0°, 390°) AND (670°, 1000°)}).
+c13 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height <= 170mm AND temperature <= 550°}).
+c14 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height > 170mm AND temperature <= 560°}).
+
+## Roasting Chamber Temperature and Tray Height Constraints for Dark Roast
+c15 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height >= 175mm AND temperature = [220°, 580°]}).
+c16 = ({Height Measure}, {Roasting Chamber 1}, {directly follows}, {tray height < 175mm AND temperature = [200°, 560°]}).
+c17 = ({Moisture Measure}, {Roasting Chamber 2}, {directly follows}, {tray height >= 175mm AND temperature = [320°, 680°]}).
+c18 = ({Moisture Measure}, {Roasting Chamber 2}, {directly follows}, {tray height < 175mm AND temperature = [300°, 660°]}).
+c19 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {tray height >= 175mm AND temperature IN [421°, 780°]}).
+c20 = ({Roast Degree Selection}, {Roasting Chamber 3}, {directly follows}, {tray height < 175mm AND temperature IN [400°, 760°]}).
+c21 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height >= 175mm AND temperature = [320°, 680°]}).
+c22 = ({Roasting Chamber 3}, {Roasting Chamber 4}, {directly follows}, {tray height < 175mm AND temperature = [320°, 680°]}).
+c23 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {tray height >= 175mm AND temperature <= 580°}).
+c24 = ({Roasting Chamber 4}, {Roasting Chamber 5}, {directly follows}, {tray height < 175mm AND temperature <= 560°}).
+
+## Additional Constraints
+c25 = ({Final Measure}, {Quality Assessment}, {directly follows}, {roasting degree matches bean type AND temperature rules followed}).
+
+----- END OF: PROMPT 2 GENERATION NR. 3 -----
+
+--- END OF: SMART METER REQUEST PROMPT 2-----

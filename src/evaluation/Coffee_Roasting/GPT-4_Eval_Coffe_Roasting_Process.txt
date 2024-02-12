@@ -1,0 +1,3229 @@
+# EVALUATING MINED CONSTRAINTS FROM GPT-4 for dataset Coffee-Roasting-Process
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 1
+
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.725
+
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.725
+
+### Constraint 7
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 10
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+### Constraint 11
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 12
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 13
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 14
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+### Constraint 15
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 16
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 17
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 18
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 19
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+### Constraint 20
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 21
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 22
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 23
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 24
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+#### Attempt 1 Avr. activity-score = 1.0
+#### Attempt 1 Avr. activities-relationship-score = 0.75
+#### Attempt 1 Avr. condition-feature-score = 0.9236111111111108
+#### Attempt 1 Avr. constraint-fit-score = 0.9166666666666666
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 1
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 2
+
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 3
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.725
+
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 6
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+### Constraint 7
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 10
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+### Constraint 11
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 12
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 13
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 14
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+### Constraint 15
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 16
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 17
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 18
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 19
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+### Constraint 20
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 21
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 22
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 23
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 24
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 0
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.825
+
+#### Attempt 2 Avr. activity-score = 1.0
+#### Attempt 2 Avr. activities-relationship-score = 0.75
+#### Attempt 2 Avr. condition-feature-score = 0.9305555555555552
+#### Attempt 2 Avr. constraint-fit-score = 0.9208333333333334
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 2
+
+## START OF EVALUATION PROMPT 1 ATTEMPT 3
+
+### Constraint 1
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 3
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 4
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 6
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 7
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 10
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 11
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 12
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 13
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 14
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 15
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 16
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 17
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 18
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 19
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 20
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 21
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 22
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 23
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 24
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+#### Attempt 3 Avr. activity-score = 0.75
+#### Attempt 3 Avr. activities-relationship-score = 1.0
+#### Attempt 3 Avr. condition-feature-score = 0.9236111111111108
+#### Attempt 3 Avr. constraint-fit-score = 0.8916666666666669
+
+## END OF EVALUATION PROMPT 1 ATTEMPT 3
+
+## SWITCHING TO PROMPT 2
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 1
+
+### Constraint 1
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 3
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 4
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 6
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 7
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 10
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 11
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 12
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 13
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 14
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 15
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 16
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 17
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 18
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 19
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 20
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 21
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 22
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 23
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 24
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+#### Attempt 1 Avr. activity-score = 0.9166666666666666
+#### Attempt 1 Avr. activities-relationship-score = 1.0
+#### Attempt 1 Avr. condition-feature-score = 0.9166666666666664
+#### Attempt 1 Avr. constraint-fit-score = 0.929166666666667
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 1
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 2
+
+### Constraint 1
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 2
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 3
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.625
+#### constraint-fit-score
+- constraint-fit-score = 0.65
+
+### Constraint 4
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 5
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 6
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.625
+#### constraint-fit-score
+- constraint-fit-score = 0.65
+
+### Constraint 7
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 8
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 9
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 10
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 11
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.625
+#### constraint-fit-score
+- constraint-fit-score = 0.65
+
+### Constraint 12
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.625
+#### constraint-fit-score
+- constraint-fit-score = 0.775
+
+### Constraint 13
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.625
+#### constraint-fit-score
+- constraint-fit-score = 0.775
+
+### Constraint 14
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 15
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 16
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 17
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 18
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 19
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 20
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 21
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 22
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 23
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.875
+
+### Constraint 24
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.0
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+#### Attempt 2 Avr. activity-score = 0.75
+#### Attempt 2 Avr. activities-relationship-score = 1.0
+#### Attempt 2 Avr. condition-feature-score = 0.7847222222222222
+#### Attempt 2 Avr. constraint-fit-score = 0.8083333333333332
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 2
+
+## START OF EVALUATION PROMPT 2 ATTEMPT 3
+
+### Constraint 1
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 2
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 3
+#### activity pair score
+- activity-score = 0.25
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.7875
+
+### Constraint 4
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 5
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 6
+#### activity pair score
+- activity-score = 0.25
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.6875
+
+### Constraint 7
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 8
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 9
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 10
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 11
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 12
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 13
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.7916666666666666
+#### constraint-fit-score
+- constraint-fit-score = 0.75
+
+### Constraint 14
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 15
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 16
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 17
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 18
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 19
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 20
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 21
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 22
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+### Constraint 23
+#### activity pair score
+- activity-score = 1
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.975
+
+### Constraint 24
+#### activity pair score
+- activity-score = 0.5
+#### activities relationship score
+- activities-relationship-score = 1
+#### Temperature feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Roasting degree feature
+- feature-score = 0.125
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### Tray height feature
+- feature-score = 0.25
+- feature-value-score = 0.5
+- feature-relationship-score = 0.25
+#### condition feature score
+- condition-feature-score = 0.9583333333333334
+#### constraint-fit-score
+- constraint-fit-score = 0.85
+
+#### Attempt 3 Avr. activity-score = 0.5208333333333334
+#### Attempt 3 Avr. activities-relationship-score = 1.0
+#### Attempt 3 Avr. condition-feature-score = 0.9305555555555554
+#### Attempt 3 Avr. constraint-fit-score = 0.8385416666666669
+
+## END OF EVALUATION PROMPT 2 ATTEMPT 3
+
+
+## END OF EVALUATION FILE
+

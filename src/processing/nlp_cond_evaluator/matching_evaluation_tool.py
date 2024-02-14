@@ -136,10 +136,17 @@ class MatchingEvaluationTool:
                                                 del progressive_validation_dict[condition_key]
                                                 curr_condition_dict[condition_key] = condition_value
 
+                                # Evaluate the Progressive Validation of preceding conditions
                                 if self.eval_progressive_validation(trace_id, rel_value['subject'],
                                                                     progressive_validation_dict):
-                                    if not self.eval_concat_rule_concat_value(curr_condition_dict, event_attributes):
-                                        self.register_violation(trace_id, rel_value['object'], curr_condition_dict,
+
+                                    # If the Progressive Validation yields true, then perform Condition Evaluation
+                                    verdict, violation_dict = self.eval_concat_rule_concat_value(curr_condition_dict,
+                                                                                                 event_attributes)
+                                    # If verdict is false = violation
+                                    if not verdict:
+                                        # A violation happened, save the node id, trace and violating rule
+                                        self.register_violation(trace_id, rel_value['object'], violation_dict,
                                                                 event_attributes)
 
     def eval_similarity(self, f_string: str, s_string: str) -> bool:
@@ -206,23 +213,37 @@ class MatchingEvaluationTool:
         else:
             self.similarity_cache[f_string][s_string] = verdict
 
-    def eval_concat_rule_concat_value(self, expectancy_dict: dict, got_value: dict) -> bool:
+    def eval_concat_rule_concat_value(self, expectancy_dict: dict, got_value: dict) -> tuple[bool, dict]:
         """
-        Evaluates the concatenated rules based on the concatenated values.
+        Condition Evaluation: Evaluates the concatenated rules based on the concatenated values.
         :param expectancy_dict: The dictionary containing the Constraint expectancies.
         :param got_value: The dictionary containing the as-is values.
         :return: A boolean verdict whether all the as-is values adhere to all the expectancies of the constraint dict.
         """
+        # Iterate over conditions
         for condition in expectancy_dict.values():
             if any(isinstance(value, dict) for value in condition.values()):
                 continue
+            # Get node attribute keys and values
             for node_att_key, node_att_val in got_value.items():
+                # If attribute name is similar to condition label
                 if self.eval_similarity(node_att_key, condition['name']):
+                    # If attribute value does not adhere to condition rules
                     if not self.eval_rule_value(condition['rule'], condition['value'], node_att_val):
-                        return False
-        return True
+                        # Return false = did not adhere, and the dict containing the condition it violated
+                        return False, condition
+        # Did not violate any conditions
+        return True, {}
 
     def eval_progressive_validation(self, trace_id: int, event_id: int, conditions: dict) -> bool:
+        """
+        Progressive Validation: Evaluates preceding events from the trace to check if they adhere to the progressive
+        conditions.
+        :param trace_id: The underlying trace to be validated for.
+        :param event_id: The event id which will be the validation limit.
+        :param conditions: The progressive conditions to be evaluated for.
+        :return: True for positive progressive validation, false otherwise.
+        """
         nodes_iterator = iter(self.get_event_kg.get_nodes[trace_id].items())
         curr_event_id = -1
         temp_cond = dict(conditions)
@@ -281,16 +302,19 @@ class MatchingEvaluationTool:
         return nn.functional.cosine_similarity(subject_text, object_text, dim=0).item()
 
     def register_violation(self, trace_id, event_id, conditions, attributes) -> None:
+        """
+        Registers a violation in the internal repository.
+        """
         self.get_violations[trace_id] = {
-            'message': f"From trace id {trace_id} -> The Process {event_id} "
+            'message': f"From trace id {trace_id}, The Process {event_id} "
                        f"failed at least one of the conditions. \n"
-                       f"Expected conditions entailed: '{conditions}'.\n"
+                       f"Expected condition entailed: '{conditions}'.\n"
                        f"The attribute '{attributes}' was the cause of it.",
             'failedConditions': conditions,
             'cause': attributes,
         }
 
     def output_to_json(self):
-        with open('violations_receipt.json', 'w') as file:
+        with open('output/coffee_violations_receipt.json', 'w') as file:
             json.dump(self.get_violations, file, indent=4)
 

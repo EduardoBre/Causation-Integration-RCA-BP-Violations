@@ -70,12 +70,31 @@ class EventKnowledgeGraphPopulator:
             label = self.get_df.iloc[row_index, label_column]
             att = self.parse_attribute(self.get_df.iloc[row_index, att_key_column],
                                        self.get_df.iloc[row_index, att_val_column])
+
             # Add the node
-            self.get_event_kg.add_node(trace_id, label, att, event_id)
+            if trace_id not in self.get_event_kg.get_nodes or event_id not in self.get_event_kg.get_nodes[trace_id]:
+                self.get_event_kg.add_node(trace_id, label, att, event_id)
 
             # If event is directly followed, then add the relationship
             if trace_id == previous_trace:
-                self.get_event_kg.add_rel(trace_id, previous_id, Relationships.DIRECTLY_FOLLOWS, event_id)
+                # Check for repetitive labels
+                if (trace_id in self.get_event_kg.get_nodes and
+                        self.get_event_kg.get_nodes[trace_id][previous_id]['label'] == label):
+                    curr_idx = row_index + 1
+                    while self.get_df.iloc[curr_idx, label_column] == label:
+                        curr_idx += 1
+                    curr_id = int(self.get_df.iloc[curr_idx, id_column])
+                    curr_trace_id = int(self.get_df.iloc[curr_idx, trace_column])
+                    if curr_trace_id == trace_id:
+                        if curr_id not in self.get_event_kg.get_nodes[trace_id]:
+                            self.get_event_kg.add_node(curr_trace_id,
+                                                       self.get_df.iloc[curr_idx, label_column],
+                                                       self.parse_attribute(self.get_df.iloc[curr_idx, att_key_column],
+                                                                            self.get_df.iloc[curr_idx, att_val_column]),
+                                                       curr_id)
+                        self.get_event_kg.add_rel(trace_id, previous_id, Relationships.DIRECTLY_FOLLOWS, curr_id)
+                else:
+                    self.get_event_kg.add_rel(trace_id, previous_id, Relationships.DIRECTLY_FOLLOWS, event_id)
 
             # Record last event and trace id
             previous_trace = trace_id

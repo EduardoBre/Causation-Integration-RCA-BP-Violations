@@ -165,7 +165,7 @@ class AbstractKnowledgeGraph(ABC):
         Stringifies the KG.
         :return: formated stringified JSON of the KG.
         """
-        return json.dumps(self.create_kg())
+        return json.dumps(self.create_kg(), cls=KGEnumEncoder)
 
 
 class KGEnumEncoder(json.JSONEncoder):

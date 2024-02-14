@@ -33,11 +33,33 @@ class EventKnowledgeGraph(AbstractKnowledgeGraph):
         if trace_id not in self.get_nodes:
             self.get_nodes[trace_id] = {}
 
-        self.get_nodes[trace_id][node_id] = {
-            'label': activity_name,
-            'attributes': attributes,
-            'relationships': []
-        }
+        # Temp dict to store ordered event key events
+        temp = {}
+        # Save new node in ordered manner
+        if self.get_nodes[trace_id]:
+            for key in sorted(self.get_nodes[trace_id].keys()):
+                if key < node_id:
+                    temp[key] = self.get_nodes[trace_id][key]
+                elif key == node_id:
+                    continue
+                else:
+                    if node_id not in temp:
+                        temp[node_id] = {
+                            'label': activity_name,
+                            'attributes': attributes,
+                            'relationships': []
+                        }
+                    temp[key] = self.get_nodes[trace_id][key]
+        if node_id not in temp:
+            temp[node_id] = self.get_nodes[trace_id][node_id] = {
+                'label': activity_name,
+                'attributes': attributes,
+                'relationships': []
+            }
+
+        # update nodes under trace with ordered keys
+        self.get_nodes[trace_id] = temp
+
         # Update stats
         self.inc_node_count()
         return node_id
@@ -77,6 +99,7 @@ class EventKnowledgeGraph(AbstractKnowledgeGraph):
         # Record relationship on nodes
         self.get_nodes[trace_id][subject_id]['relationships'].append(rel_id)
         self.get_nodes[trace_id][object_id]['relationships'].append(rel_id)
+
         # Update stats
         self.inc_rel_count()
         return rel_id

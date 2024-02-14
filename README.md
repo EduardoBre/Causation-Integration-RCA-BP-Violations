@@ -13,7 +13,7 @@ Graph created using [draw.io](https://app.diagrams.net/).
 This repository is mainly divided in 3 sections:
 
 ### [Pre-Processing](src/preprocessing)
-The pre-processing directory entails all the implementation regarding the refactoring of the dataset to fit the purposes of the implementaiton in this repo.
+The pre-processing directory entails all the implementation regarding the refactoring of the dataset to fit the purposes of the implementation in this repo.
 Furthermore, all aspects related to prompt engineering are also entailed here.
 
 ### [Processing](src/processing)
@@ -52,3 +52,6 @@ The logic of the solution model can be seen in the following graph created with 
 
 The implementation overview can be seen in the following UML-Class diagram created with [TUM Apollon](https://apollon.ase.in.tum.de/).
 ![UML Constraint Mining](docs/models/MatchingTool.png)
+
+### [Evaluation](src/evaluation)
+The evaluation directory contains all the output data, as well the implementation for the evaluation of the thesis' solution model.
